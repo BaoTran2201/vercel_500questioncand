@@ -25,6 +25,8 @@ export function TestMode() {
   );
   const [showResults, setShowResults] = useState(false);
   const [isHeaderCompact, setIsHeaderCompact] = useState(false);
+  const [timeLeft, setTimeLeft] = useState<number>(30 * 60); // 30 minutes in seconds
+  const [isAutoSubmitted, setIsAutoSubmitted] = useState(false);
 
   const handleAnswerSelect = (qIndex: number, answerIndex: number) => {
     if (showResults) return;
@@ -82,6 +84,13 @@ export function TestMode() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const handleAutoSubmit = () => {
+    // Fill unanswered questions as incorrect (null → index stays as is)
+    setShowResults(true);
+    setIsAutoSubmitted(true);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const handleReset = () => {
     setSelectedAnswers(new Array(randomQuestions.length).fill(null));
     setShowResults(false);
@@ -104,6 +113,13 @@ export function TestMode() {
   const score = calculateScore();
   const answered = selectedAnswers.filter((a) => a !== null).length;
 
+  // Format time to mm:ss
+  const formatTime = (seconds: number): string => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
   // Warn before leaving page if test is not submitted
   useEffect(() => {
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
@@ -116,6 +132,24 @@ export function TestMode() {
     window.addEventListener('beforeunload', handleBeforeUnload);
     return () => window.removeEventListener('beforeunload', handleBeforeUnload);
   }, [showResults, answered]);
+
+  // Countdown timer
+  useEffect(() => {
+    if (showResults) return; // Stop timer when results are shown
+
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 1) {
+          // Time's up - auto submit
+          handleAutoSubmit();
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [showResults]);
 
   // Handle scroll for sticky header
   useEffect(() => {
@@ -136,6 +170,11 @@ export function TestMode() {
             <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto">
               <Award className="w-10 h-10 text-white" />
             </div>
+            {isAutoSubmitted && (
+              <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-3 mb-2">
+                <p className="text-yellow-800 text-sm font-medium">⏰ Hết giờ! Bài kiểm tra đã được nộp tự động.</p>
+              </div>
+            )}
             <h2 className="text-green-800">Kết quả bài kiểm tra</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
               <div className="bg-green-50 rounded-lg p-4 border border-green-200">
@@ -295,14 +334,27 @@ export function TestMode() {
             <div>
               <h2 className={`text-green-800 transition-all duration-300 ${
                 isHeaderCompact ? 'text-lg' : 'text-2xl'
-              }`}>Trả bài</h2>
+              }`}>Thi thử</h2>
               <p className={`text-gray-600 transition-all duration-300 ${
                 isHeaderCompact ? 'text-xs' : 'text-sm'
               }`}>
                 Đã làm được {answered} trên {randomQuestions.length} câu
               </p>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 gap-3 flex-wrap">
+              {/* Timer Display */}
+              <div className={`flex items-center space-x-1 rounded-lg border transition-all duration-300 ${
+                timeLeft < 300 
+                  ? 'bg-red-50 border-red-200' 
+                  : 'bg-green-50 border-green-200'
+              } ${isHeaderCompact ? 'px-2 py-1' : 'px-4 py-2'}`}>
+                <span className={`transition-all duration-300 ${
+                  timeLeft < 300 ? 'text-red-700' : 'text-green-700'
+                } ${isHeaderCompact ? 'text-xs' : 'text-sm'}`}>
+                  {isHeaderCompact ? '⏳' : '⏱️ Thời gian:'} {formatTime(timeLeft)}
+                </span>
+              </div>
+              
               <div className={`bg-green-50 rounded-lg border border-green-200 transition-all duration-300 ${
                 isHeaderCompact ? 'px-3 py-1' : 'px-4 py-2'
               }`}>
@@ -408,7 +460,7 @@ export function TestMode() {
       </div>
 
       {/* Submit Button */}
-      <div id="submit-button" className="flex items-center justify-center px-4 scroll-mt-24">
+      <div id="submit-button" className="flex items-center justify-center px-4 scroll-mt-24 gap-3 flex-wrap">
         {answered === randomQuestions.length && (
           <button
             onClick={handleSubmit}
@@ -416,6 +468,19 @@ export function TestMode() {
           >
             Nộp bài kiểm tra
           </button>
+        )}
+        {answered < randomQuestions.length && (
+          <div className="text-center">
+            <p className="text-gray-600 text-sm mb-2">
+              Bạn còn {randomQuestions.length - answered} câu chưa trả lời
+            </p>
+            <button
+              onClick={handleSubmit}
+              className="px-8 py-3 rounded-lg bg-gray-400 text-white hover:bg-gray-500 transition-all duration-200 shadow-lg hover:shadow-xl"
+            >
+              Nộp bài (Các câu chưa trả lời sẽ được tính sai)
+            </button>
+          </div>
         )}
       </div>
     </div>
