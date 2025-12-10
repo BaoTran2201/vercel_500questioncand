@@ -13,7 +13,12 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-export function TestMode() {
+interface TestModeProps {
+  onAppHeaderCompactChange?: (isCompact: boolean) => void;
+  appHeaderCompact?: boolean;
+}
+
+export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }: TestModeProps) {
   // Get random 100 questions on component mount
   const randomQuestions = useMemo(() => {
     const shuffled = shuffleArray(questions);
@@ -25,7 +30,7 @@ export function TestMode() {
   );
   const [showResults, setShowResults] = useState(false);
   const [isHeaderCompact, setIsHeaderCompact] = useState(false);
-  const [timeLeft, setTimeLeft] = useState<number>(30 * 60); // 30 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState<number>(20 * 60); // 20 minutes in seconds
   const [isAutoSubmitted, setIsAutoSubmitted] = useState(false);
 
   const handleAnswerSelect = (qIndex: number, answerIndex: number) => {
@@ -113,6 +118,10 @@ export function TestMode() {
   const score = calculateScore();
   const answered = selectedAnswers.filter((a) => a !== null).length;
 
+  // Calculate sticky header top position based on AppHeader state
+  const appHeaderHeight = appHeaderCompact ? 56 : 64; // h-14 = 56px, h-16 = 64px
+  const stickyTopValue = appHeaderHeight;
+
   // Format time to mm:ss
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
@@ -155,11 +164,16 @@ export function TestMode() {
   useEffect(() => {
     const handleScroll = () => {
       setIsHeaderCompact(window.scrollY > 50);
+      
+      // Notify parent (App) when scroll passes 80px threshold for AppHeader compact
+      if (onAppHeaderCompactChange) {
+        onAppHeaderCompactChange(window.scrollY > 80);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [onAppHeaderCompactChange]);
 
   if (showResults) {
     return (
@@ -325,56 +339,68 @@ export function TestMode() {
 
   return (
     <div className="space-y-6 pb-20 pt-16">
-      {/* Header - Sticky with compact mode (placed above main nav when scrolling) */}
-      <div className={`sticky top-0 z-60 bg-white/95 backdrop-blur-sm shadow-lg border-b border-green-100 transition-all duration-300 ${
-        isHeaderCompact ? 'py-2' : 'py-6'
+      {/* Header - Sticky with compact mode (positioned below AppHeader) */}
+      <div style={{ top: `${stickyTopValue}px` }} className={`sticky z-40 bg-white shadow-lg border-b border-green-100 rounded-lg transition-all duration-200 ${
+        isHeaderCompact ? 'py-2' : 'py-4'
       }`}>
-        <div className={`transition-all duration-300 ${isHeaderCompact ? 'px-4' : 'px-6'}`}>
+        <div className={`transition-all duration-200 ${isHeaderCompact ? 'px-3' : 'px-6'}`}>
           <div className="flex items-center justify-between flex-wrap gap-2">
-            <div>
-              <h2 className={`text-green-800 transition-all duration-300 ${
-                isHeaderCompact ? 'text-lg' : 'text-2xl'
-              }`}>Thi thử</h2>
-              <p className={`text-gray-600 transition-all duration-300 ${
-                isHeaderCompact ? 'text-xs' : 'text-sm'
+            <div className="min-w-0">
+              <h2 className={`text-green-800 transition-all duration-200 font-semibold ${
+                isHeaderCompact ? 'text-sm' : 'text-xl'
+              }`}> <h2 className="text-green-800">Thi thử</h2></h2>
+              <p className={`text-gray-600 transition-all duration-200 ${
+                isHeaderCompact ? 'hidden' : 'text-xs'
               }`}>
-                Đã làm được {answered} trên {randomQuestions.length} câu
+              <p className="text-gray-600">Đã trả lời {answered} trên {randomQuestions.length} câu hỏi</p> 
               </p>
             </div>
-            <div className="flex items-center space-x-2 gap-3 flex-wrap">
+            <div className="flex items-center gap-2 flex-wrap">
               {/* Timer Display */}
-              <div className={`flex items-center space-x-1 rounded-lg border transition-all duration-300 ${
+              <div className={`flex items-center space-x-1 rounded-lg border transition-all duration-200 ${
                 timeLeft < 300 
                   ? 'bg-red-50 border-red-200' 
+                  : timeLeft < 600
+                  ? 'bg-yellow-50 border-yellow-200'
                   : 'bg-green-50 border-green-200'
-              } ${isHeaderCompact ? 'px-2 py-1' : 'px-4 py-2'}`}>
-                <span className={`transition-all duration-300 ${
-                  timeLeft < 300 ? 'text-red-700' : 'text-green-700'
+              } ${isHeaderCompact ? 'px-2 py-1' : 'px-3 py-1.5'}`}>
+                <span className={`transition-all duration-200 font-medium ${
+                  timeLeft < 300 
+                    ? 'text-red-700' 
+                    : timeLeft < 600
+                    ? 'text-yellow-700'
+                    : 'text-green-700'
                 } ${isHeaderCompact ? 'text-xs' : 'text-sm'}`}>
-                  {isHeaderCompact ? '⏳' : '⏱️ Thời gian:'} {formatTime(timeLeft)}
+                  {isHeaderCompact ? '⏳' : '⏱️'} {formatTime(timeLeft)}
                 </span>
               </div>
               
-              <div className={`bg-green-50 rounded-lg border border-green-200 transition-all duration-300 ${
-                isHeaderCompact ? 'px-3 py-1' : 'px-4 py-2'
+              <div className={`bg-green-50 rounded-lg border border-green-200 transition-all duration-200 ${
+                isHeaderCompact ? 'px-2 py-1' : 'px-3 py-1.5'
               }`}>
-                <span className={`text-green-700 transition-all duration-300 ${
+                <span className={`text-green-700 font-medium transition-all duration-200 ${
                   isHeaderCompact ? 'text-xs' : 'text-sm'
                 }`}>
-                  Trả lời: {answered}/{randomQuestions.length}
+                  {answered}/{randomQuestions.length}
                 </span>
               </div>
             </div>
           </div>
 
-          {/* Progress Bar */}
-          <div className={`w-full bg-gray-200 rounded-full overflow-hidden transition-all duration-300 ${
-            isHeaderCompact ? 'h-1 mt-2' : 'h-3 mt-4'
-          }`}>
+          {/* Time Progress Bar */}
+          <div className={`w-full rounded-full overflow-hidden transition-all duration-200 ${
+            isHeaderCompact ? 'h-1 mt-2' : 'h-2 mt-3'
+          }`} style={{ backgroundColor: '#e5e7eb' }}>
             <div
-              className="bg-gradient-to-r from-green-500 to-green-600 h-full rounded-full transition-all duration-300"
+              className={`h-full rounded-full transition-all duration-200 ${
+                timeLeft < 300 
+                  ? 'bg-red-500' 
+                  : timeLeft < 600
+                  ? 'bg-yellow-500'
+                  : 'bg-green-500'
+              }`}
               style={{
-                width: `${(answered / randomQuestions.length) * 100}%`,
+                width: `${(timeLeft / (20 * 60)) * 100}%`,
               }}
             />
           </div>
@@ -396,11 +422,11 @@ export function TestMode() {
               {/* Question Header */}
               <div className="bg-gradient-to-r from-green-50 to-green-100 px-6 py-4 border-b border-green-200">
                 <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 w-10 h-10 bg-green-500 text-white rounded-lg flex items-center justify-center">
+                  <div className="flex-shrink-0 w-10 h-10 bg-green-500 text-white rounded-lg flex items-center justify-center font-semibold text-lg">
                     {qIndex + 1}
                   </div>
                   <div className="flex-1">
-                    <p className="text-gray-900 text-2xl leading-relaxed" style={{fontWeight: 900}}>{question.question}</p>
+                    <p className="text-gray-900 text-lg leading-relaxed font-bold" style={{ fontWeight: 900 }}>{question.question}</p>
                   </div>
                 </div>
               </div>
