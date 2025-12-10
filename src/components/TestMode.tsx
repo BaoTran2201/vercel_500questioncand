@@ -117,7 +117,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
   const score = calculateScore();
   const answered = selectedAnswers.filter((a) => a !== null).length;
-  const isPassed = score.correct >= 18;
+  const isPassed = score.correct >= 26;
 
   // Calculate sticky header top position based on AppHeader state
   const appHeaderHeight = appHeaderCompact ? 56 : 64; // h-14 = 56px, h-16 = 64px

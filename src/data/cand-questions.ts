@@ -2151,7 +2151,7 @@ export const candQuestions: Question[] = [
   {
     id: 345,
     question: "Nút bấm biểu tượng như hình vẽ trên xe ô tô có ý nghĩa như thế nào?",
-    answers: ["Báo hiệu xin đường cho xe đi thẳng.", "Báo hiệu hệ thống phanh bị lỗi.", "Báo hiệu xe đang ở tình huống nguy hiểm.", "Báo hiệu đến thời gian cần bảo dưỡng. PHẦN V. GIẢI THẾ SA HÌNH"],
+    answers: ["Báo hiệu xin đường cho xe đi thẳng.", "Báo hiệu hệ thống phanh bị lỗi.", "Báo hiệu xe đang ở tình huống nguy hiểm.", "Báo hiệu đến thời gian cần bảo dưỡng."],
     correctAnswer: 2,
     image: "/images/question_345.jpeg",
   },
