@@ -22,7 +22,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
   // Get random 100 questions on component mount
   const randomQuestions = useMemo(() => {
     const shuffled = shuffleArray(questions);
-    return shuffled.slice(0, 50);
+    return shuffled.slice(0, 30);
   }, []);
 
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
@@ -358,16 +358,16 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
             <div className="flex items-center gap-2 flex-wrap">
               {/* Timer Display */}
               <div className={`flex items-center space-x-1 rounded-lg border transition-all duration-200 ${
-                timeLeft < 300 
+                timeLeft <= 300 
                   ? 'bg-red-50 border-red-200' 
-                  : timeLeft < 600
+                  : timeLeft <= 600
                   ? 'bg-yellow-50 border-yellow-200'
                   : 'bg-green-50 border-green-200'
               } ${isHeaderCompact ? 'px-2 py-1' : 'px-3 py-1.5'}`}>
                 <span className={`transition-all duration-200 font-medium ${
-                  timeLeft < 300 
+                  timeLeft <= 300 
                     ? 'text-red-700' 
-                    : timeLeft < 600
+                    : timeLeft <= 600
                     ? 'text-yellow-700'
                     : 'text-green-700'
                 } ${isHeaderCompact ? 'text-xs' : 'text-sm'}`}>
@@ -393,9 +393,9 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
           }`} style={{ backgroundColor: '#e5e7eb' }}>
             <div
               className={`h-full rounded-full transition-all duration-200 ${
-                timeLeft < 300 
+                timeLeft <= 300 
                   ? 'bg-red-500' 
-                  : timeLeft < 600
+                  : timeLeft <= 600
                   ? 'bg-yellow-500'
                   : 'bg-green-500'
               }`}
