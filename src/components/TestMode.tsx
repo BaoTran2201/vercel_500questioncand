@@ -117,6 +117,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
   const score = calculateScore();
   const answered = selectedAnswers.filter((a) => a !== null).length;
+  const isPassed = score.correct >= 18;
 
   // Calculate sticky header top position based on AppHeader state
   const appHeaderHeight = appHeaderCompact ? 56 : 64; // h-14 = 56px, h-16 = 64px
@@ -199,9 +200,15 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
                 <p className="text-gray-600 text-sm">Tổng số câu hỏi</p>
                 <p className="text-blue-700">{score.total}</p>
               </div>
-              <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
-                <p className="text-gray-600 text-sm">Điểm</p>
-                <p className="text-purple-700">{score.percentage}%</p>
+              <div className={`rounded-lg p-4 border ${
+                isPassed 
+                  ? 'bg-green-50 border-green-200' 
+                  : 'bg-red-50 border-red-200'
+              }`}>
+                <p className="text-gray-600 text-sm">Kết quả</p>
+                <p className={isPassed ? 'text-green-700 font-bold text-lg' : 'text-red-700 font-bold text-lg'}>
+                  {isPassed ? '✓ Đạt' : '✗ Không đạt'}
+                </p>
               </div>
             </div>
             <button
