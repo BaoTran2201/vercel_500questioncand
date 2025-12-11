@@ -7,6 +7,109 @@
 }
 
 export const candQuestions: Question[] = [
+  
+  {
+    id: 1,
+    question: 'Trong Luật TTATGTĐB, "đường ưu tiên" được quy định như thế nào?',
+    answers: [
+      'Đường ưu tiên là đường chỉ dành cho một số loại phương tiện tham gia giao thông, được cắm biển báo hiệu đường ưu tiên.',
+      'Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông đường bộ phải nhường đường cho các phương tiện đến từ hướng khác khi qua nơi giao nhau, có thể được cắm biển báo hiệu đường ưu tiên.',
+      'Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông đường bộ được các phương tiện tham gia giao thông đường bộ đến từ hướng khác nhường đường khi qua nơi đường giao nhau, được cắm biển báo hiệu đường ưu tiên.',
+    ],
+    correctAnswer: 2,
+  },
+  {
+    id: 2,
+    question: 'Trong Luật TTATGTĐB, "làn đường" được quy định như thế nào?',
+    answers: [
+      'Là phần của đường bộ được sử dụng cho phương tiện giao thông đi lại.',
+      'Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn.',
+      'Cả hai ý trên.',
+    ],
+    correctAnswer: 2,
+  },
+  {
+    id: 3,
+    question: 'Trong Luật TTATGTĐB, "người tham gia giao thông đường bộ" gồm những thành phần nào?',
+    answers: [
+      'Người điều khiển, người được chở trên phương tiện tham gia giao thông đường bộ.',
+      'Người điều khiển, dẫn dắt vật nuôi trên đường bộ.',
+      'Người đi bộ trên đường bộ.',
+      'Cả ba ý trên.',
+    ],
+    correctAnswer: 3,
+  },
+  {
+    id: 4,
+    question: 'Trong Luật TTATGTĐB, "người lái xe" được quy định như thế nào?',
+    answers: [
+      'Là người điều khiển xe cơ giới.',
+      'Là người điều khiển xe thô sơ.',
+      'Là người điều khiển xe máy chuyên dùng.',
+    ],
+    correctAnswer: 0,
+  },
+  {
+    id: 5,
+    question: 'Trong Luật TTATGTĐB, "người điều khiển giao thông đường bộ" gồm những thành phần nào?',
+    answers: [
+      'Người điều khiển phương tiện tham gia giao thông.',
+      'Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ.',
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 6,
+    question: 'Người tham gia giao thông ngoài việc phải chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ và quy định khác của pháp luật có liên quan, còn có trách nhiệm gì?',
+    answers: [
+      'Giữ an toàn cho mình.',
+      'Giữ an toàn cho người khác.',
+      'Cả hai ý trên.',
+    ],
+    correctAnswer: 2,
+  },
+  {
+    id: 7,
+    question: 'Mọi hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ phải được phát hiện, ngăn chặn kịp thời và phải bị xử lý nghiêm minh theo quy định của pháp luật là đúng hay sai?',
+    answers: [
+      'Sai.',
+      'Đúng.',
+      'Tùy trường hợp.',
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 8,
+    question: 'Luật TTATGTĐB có nghiêm cấm người điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn không?',
+    answers: [
+      'Nghiêm cấm.',
+      'Không nghiêm cấm.',
+      'Cấm người điều khiển phương tiện giao thông mà trong máu có nồng độ cồn vượt quá 50 miligam/100 mililít máu hoặc vượt quá 0,25 miligam/1 lít khí thở.',
+    ],
+    correctAnswer: 0,
+  },
+  {
+    id: 9,
+    question: 'Luật TTATGTĐB có nghiêm cấm người điều khiển phương tiện tham gia giao thông đường bộ mà trong cơ thể có chất ma túy không?',
+    answers: [
+      'Không nghiêm cấm.',
+      'Nghiêm cấm.',
+      'Nghiêm cấm tùy từng trường hợp.',
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 10,
+    question: 'Hành vi nào dưới đây bị nghiêm cấm trong Luật TTATGTĐB?',
+    answers: [
+      'Điều khiển phương tiện tham gia giao thông đường bộ lạng lách, đánh võng, rú ga liên tục.',
+      'Đua xe, tổ chức đua xe, xúi giục, giúp sức, cổ vũ đua xe trái phép.',
+      'Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ.',
+      'Cả ba ý trên.',
+    ],
+    correctAnswer: 3,
+  },
+
   {
     id: 11,
     question: "Luật TTATGTĐB có nghiêm cấm người lái xe dùng tay cầm và sử dụng điện thoại khi điều khiển phương tiện tham gia giao thông đang di chuyển trên đường bộ không?",
@@ -342,6 +445,15 @@ export const candQuestions: Question[] = [
     question: "Khi dừng xe, người điều khiển phương tiện tham gia giao thông đường bộ có được tắt máy và rời khỏi vị trí lái không?",
     answers: ["Được tắt máy và được rời khỏi vị trí lái khi thực hiện biện pháp an toàn.", "Không được tắt máy và không được rời khỏi vị trí lái. ", "Không được tắt máy và không được rời khỏi vị trí lái; chỉ được rời khỏi vị trí lái để đóng, mở cửa xe, xếp dỡ hàng hóa, kiểm tra kỹ thuật xe nhưng phải sử dụng phanh đỗ xe hoặc thực hiện biện pháp an toàn khác."],
     correctAnswer: 2,
+  },
+  {
+    id: 63,
+    question: "Trong Luật TTATGTĐB, “đỗ xe” được quy định như thế nào?",
+    answers: ["Đỗ xe là trạng thái đứng yên của xe không giới hạn thời gian.  ",
+              "Đỗ xe là trạng thái đứng yên của xe có giới hạn trong một khoảng thời gian cần thiết đủ để cho người lên, xuống phương tiện đó.",
+              "Đỗ xe là trạng thái đứng yên của xe có giới hạn trong một khoảng thời gian cần thiết đủ để xếp dỡ hàng hóa hoặc thực hiện công việc khác.",
+              "Cả ba ý trên."],
+    correctAnswer: 0,
   },
   {
     id: 64,
@@ -1981,7 +2093,13 @@ export const candQuestions: Question[] = [
   {
     id: 318,
     question: "Các biện pháp tiết kiệm nhiên liệu khi chạy xe?",
-    answers: ["Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi chạy xe.", "Kiểm tra áp suất lốp theo tiêu chuẩn, chạy xe với tốc độ phù hợp tình trạng mặt đường và mật độ giao thông trên đường.", "Chở đúng số người và tải trọng theo thiết kế của xe.", "Cả ba ý trên. Câu: 319: Khi lái xe ô tô vào ban đêm trên đoạn đường đèo dốc, người lái xe phải làm gì?", "Kiểm tra an toàn kỹ thuật xe trước khi vào đoạn đường đèo dốc. 2. Giảm tốc độ, về số thấp, giữ khoảng cách an toàn với xe phía trước; sử dụng hợp lý chế độ đèn chiếu sáng (xa, gần); không nhìn trực diện vào đèn của xe ngược chiều.", "Chú ý tín hiệu đèn, còi của xe đi ngược chiều và hệ thống báo hiệu đường bộ; xe xuống dốc phải nhường đường cho xe lên dốc.", "Cả ba ý trên."],
+    answers: ["Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi chạy xe.", "Kiểm tra áp suất lốp theo tiêu chuẩn, chạy xe với tốc độ phù hợp tình trạng mặt đường và mật độ giao thông trên đường.", "Chở đúng số người và tải trọng theo thiết kế của xe.", "Cả ba ý trên."],
+    correctAnswer: 3,
+  },
+  {
+    id: 319,
+    question: "Khi lái xe ô tô vào ban đêm trên đoạn đường đèo dốc, người lái xe phải làm gì?",
+    answers: ["Kiểm tra an toàn kỹ thuật xe trước khi vào đoạn đường đèo dốc. ", "Giảm tốc độ, về số thấp, giữ khoảng cách an toàn với xe phía trước; sử dụng hợp lý chế độ đèn chiếu sáng (xa, gần); không nhìn trực diện vào đèn của xe ngược chiều.", "Chú ý tín hiệu đèn, còi của xe đi ngược chiều và hệ thống báo hiệu đường bộ; xe xuống dốc phải nhường đường cho xe lên dốc.", "Cả ba ý trên."],
     correctAnswer: 3,
   },
   {
@@ -2972,6 +3090,26 @@ export const candQuestions: Question[] = [
     question: "Mục đích tuyên truyền, phổ biến, giáo dục pháp luật về TTATGTĐB là gì?",
     answers: ["Đưa các chủ trương, chính sách của Đảng, pháp luật của Nhà nước đến với các tầng lớp Nhân dân.", "Đưa các chủ trương, chính sách của Đảng, pháp luật của Nhà nước đến với đội ngũ cán bộ, viên chức, công chức.", "Đưa các chủ trương, chính sách của Đảng, pháp luật của Nhà nước đến với đội ngũ lái xe."],
     correctAnswer: 0,
+  },
+  {
+    id: 464,
+    question: "'Tiêu chí văn hóa giao thông đường bộ' do Bộ Văn hóa, Thể thao và Du lịch ban hành quy định tiêu chí cụ thể cho những đối tượng nào dưới đây?",
+    answers: [
+      "Cơ quan quản lý nhà nước về giao thông; lực lượng làm nhiệm vụ bảo đảm trật tự, an toàn giao thông.",
+      "Người tham gia giao thông; chủ phương tiện tham gia giao thông.",
+      "Cư dân sinh sống bên đường giao thông.",
+      "Cả ba ý trên."],
+    correctAnswer: 3,
+  },
+  {
+    id: 465,
+    question: "\"Tiêu chí Văn hóa giao thông đường bộ\" do Bộ Văn hóa, Thể thao và Du lịch quy định những tiêu chí chung nào?",
+    answers: [
+      "Tự giác chấp hành pháp luật về giao thông đường bộ; thực hiện nghiêm nhiệm vụ, tác phong chuẩn mực, văn minh; tôn trọng, nhường nhịn, giúp đỡ mọi người khi tham gia giao thông.",
+      "Có trách nhiệm với bản thân và cộng đồng khi tham gia giao thông; có ý thức văn hóa xây dựng môi trường giao thông thân thiện, an toàn.",
+      "Tuân thủ pháp luật khi xử lý và bị xử lý các hành vi vi phạm trật tự, an toàn giao thông; thực hiện nghiêm nhiệm vụ, tác phong chuẩn mực, văn minh; tạo dựng kết cấu hạ tầng giao thông chuẩn mực an toàn.",
+      "Cả ba ý trên."],
+    correctAnswer: 3,
   },
   {
     id: 466,

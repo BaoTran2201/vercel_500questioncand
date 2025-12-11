@@ -1,5 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
-import { questions, Question } from '../data/questions';
+import { Question } from '../data/questions';
+import { candQuestions250 } from '../data/cand-questions250';
+import { candQuestions } from '../data/cand-questions';
 import { Check, X, RotateCcw, Award } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
@@ -31,10 +33,10 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
   const startTest = (level: 'A' | 'B') => {
     const config = level === 'A'
-      ? { count: 20, limit: 15 * 60, pass: 18 }
-      : { count: 30, limit: 20 * 60, pass: 26 };
+      ? { count: 20, limit: 15 * 60, pass: 18, source: candQuestions250 }
+      : { count: 30, limit: 20 * 60, pass: 26, source: candQuestions };
 
-    const picked = shuffleArray(questions).slice(0, config.count);
+    const picked = shuffleArray(config.source).slice(0, config.count);
     setSelectedLevel(level);
     setTestQuestions(picked);
     setSelectedAnswers(new Array(config.count).fill(null));
@@ -196,14 +198,14 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
           <h2 className="text-green-800 text-xl font-semibold mb-4">Hãy chọn hạng bằng lái:</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <button
-              className="w-full text-left p-4 rounded-lg border border-green-200 bg-green-50 hover:bg-green-100 transition-all duration-200 shadow-sm"
+              className="w-full text-left p-4 rounded-lg border border-green-200 bg-green-50 hover:bg-green-100 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 shadow-sm"
               onClick={() => startTest('A')}
             >
               <p className="text-green-800 font-semibold">Hạng A</p>
               <p className="text-gray-700 text-sm">20 câu – 15 phút</p>
             </button>
             <button
-              className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 transition-all duration-200 shadow-sm"
+              className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 shadow-sm"
               onClick={() => startTest('B')}
             >
               <p className="text-blue-800 font-semibold">Hạng B</p>
@@ -394,11 +396,11 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
             <div className="min-w-0">
               <h2 className={`text-green-800 transition-all duration-200 font-semibold ${
                 isHeaderCompact ? 'text-sm' : 'text-xl'
-              }`}>Thi thử</h2>
+              }`}> <h2 className="text-green-800">Thi thử</h2></h2>
               <p className={`text-gray-600 transition-all duration-200 ${
                 isHeaderCompact ? 'hidden' : 'text-xs'
               }`}>
-                Đã trả lời {answered} trên {testQuestions.length} câu hỏi
+               <p className="text-gray-600">Đã trả lời {answered} trên {testQuestions.length} câu hỏi</p> 
               </p>
             </div>
             <div className="flex items-center gap-2 flex-wrap">
