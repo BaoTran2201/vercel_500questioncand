@@ -2017,6 +2017,7 @@ export const candQuestions250: Question[] = [
       "Xe mô tô, xe ô tô con, xe ô tô tải.",
       "Xe ô tô con, xe mô tô, xe ô tô tải."
     ],
+    image: "/images250/image186.png",
     correctAnswer: 2,
   },
 
@@ -2024,17 +2025,21 @@ export const candQuestions250: Question[] = [
     id: 187,
     question: "Trong trường hợp này xe nào được quyền đi trước?",
     answers: [
-      "Xe mô tô. 2. Xe ô tô con."
+      "Xe mô tô. ",
+      " Xe ô tô con."
     ],
-    correctAnswer: 0,
+    image: "/images250/image187.png",
+    correctAnswer: 1,
   },
 
   {
     id: 188,
     question: "Theo tín hiệu đèn, xe nào được phép đi?",
     answers: [
-      "Xe ô tô con và xe ô tô khách. 2. Xe mô tô."
+      "Xe ô tô con và xe ô tô khách.",
+      " Xe mô tô."
     ],
+    image: "/images250/image188.png",
     correctAnswer: 0,
   },
 
@@ -2042,11 +2047,12 @@ export const candQuestions250: Question[] = [
     id: 189,
     question: "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao thông?",
     answers: [
-      "Xe ô tô khách, xe mô tô. 3. Xe ô tô con, xe ô tô tải.",
+      "Xe ô tô khách, xe mô tô. ",
+      "Xe ô tô con, xe ô tô tải.",
       "Xe ô tô tải, xe mô tô."
     ],
     correctAnswer: 0,
-    image: "/images250/question_191.jpeg",
+    image: "/images250/question_189.jpeg",
   },
 
   {
@@ -2057,6 +2063,7 @@ export const candQuestions250: Question[] = [
       "Xe ô tô tải, xe ô tô con, xe mô tô.",
       "Xe ô tô khách, xe ô tô con, xe mô tô."
     ],
+     image: "/images250/image250_190.png",
     correctAnswer: 0,
   },
 
@@ -2069,6 +2076,7 @@ export const candQuestions250: Question[] = [
       "Xe mô tô, xe ô tô tải, xe ô tô khách, xe ô tô con.",
       "Xe mô tô, xe ô tô tải, xe ô tô con, xe ô tô khách."
     ],
+      image: "/images250/image250_191.png",
     correctAnswer: 2,
   },
 
@@ -2076,19 +2084,23 @@ export const candQuestions250: Question[] = [
     id: 192,
     question: "Theo hướng mũi tên, những hướng nào xe gắn máy đi được?",
     answers: [
-      "Cả 3 hướng. 2. Hướng 1 và 3. 3. Hướng 1."
+      "Cả 3 hướng.",
+      " Hướng 1 và 3. ",
+      " Hướng 1."
     ],
     correctAnswer: 0,
-    image: "/images250/question_194.jpeg",
+    image: "/images250/question_192.jpeg",
   },
 
   {
     id: 193,
     question: "Xe nào được quyền đi trước trong trường hợp này?",
     answers: [
-      "Xe ô tô con. 2. Xe xích lô."
+      "Xe ô tô con. ",
+      "Xe xích lô."
     ],
-    correctAnswer: 0,
+    image: "/images250/image250_193.png",
+    correctAnswer: 1,
   },
 
   {
@@ -2107,8 +2119,10 @@ export const candQuestions250: Question[] = [
     id: 195,
     question: "Theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
     answers: [
-      "Xe ô tô khách. 3. Xe ô tô con.",
-      "Xe mô tô. 4. Xe ô tô con và xe mô tô."
+      "Xe ô tô khách. ",
+      " Xe ô tô con.",
+      "Xe mô tô.",
+      " Xe ô tô con và xe mô tô."
     ],
     correctAnswer: 0,
     image: "/images250/question_195.jpeg",
@@ -2120,8 +2134,9 @@ export const candQuestions250: Question[] = [
     answers: [
       "Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng.",
       "Cho phép các xe ở mọi hướng được rẽ phải.",
-      "Tất cả các xe phải đứng lại trước ngã tư, trừ những xe đã ở trong ngãtư được phép tiếp tục đi."
+      "Tất cả các xe phải đứng lại trước ngã tư, trừ những xe đã ở trong ngã tư được phép tiếp tục đi."
     ],
+      image: "/images250/image250_196.png",
     correctAnswer: 2,
   },
 
@@ -2129,10 +2144,13 @@ export const candQuestions250: Question[] = [
     id: 197,
     question: "Theo hiệu lệnh của người điều khiển giao thông, xe nào đượcphép đi?",
     answers: [
-      "Xe mô tô, xe ô tô con. 3. Xe mô tô, xe ô tô tải.",
-      "Xe ô tô con, xe ô tô tải. 4. Cả ba xe."
+      "Xe mô tô, xe ô tô con. ",
+      " Xe mô tô, xe ô tô tải.",
+      "Xe ô tô con, xe ô tô tải. ",
+      " Cả ba xe."
     ],
-    correctAnswer: 0,
+    image: "/images250/image250_197.png",
+    correctAnswer: 1,
   },
 
   {
@@ -2143,27 +2161,32 @@ export const candQuestions250: Question[] = [
       "Xe ô tô tải, xe mô tô. 4. Tất cả các loại xe trên."
     ],
     correctAnswer: 1,
-    image: "/images250/question_200.jpeg",
+    image: "/images250/question_198.jpeg",
   },
 
   {
     id: 199,
     question: "Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?",
     answers: [
-      "Cả ba hướng. 3. Hướng 1 và 3.",
-      "Hướng 1 và 2. 4. Hướng 2 và 3."
+      "Cả ba hướng. ",
+      "Hướng 1 và 3.",
+      "Hướng 1 và 2. ",
+      "Hướng 2 và 3."
     ],
-    correctAnswer: 0,
+    image: "/images250/image250_199.png",
+    correctAnswer: 1,
   },
 
   {
     id: 200,
     question: "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao thông?",
     answers: [
-      "Xe ô tô khách, xe mô tô. 3. Xe ô tô con, xe ô tô tải.",
+      "Xe ô tô khách, xe mô tô. ",
+      " Xe ô tô con, xe ô tô tải.",
       "Xe ô tô tải, xe mô tô."
     ],
-    correctAnswer: 0,
+      image: "/images250/image250_200.png",
+    correctAnswer: 1,
   },
 
   {
@@ -2176,26 +2199,31 @@ export const candQuestions250: Question[] = [
       "Cả 4 xe."
     ],
     correctAnswer: 1,
-    image: "/images250/question_203.jpeg",
+    image: "/images250/question_201.jpeg",
   },
 
   {
     id: 202,
     question: "Các xe đi theo hướng mũi tên, xe nào chấp hành quy tắc giao thông?",
     answers: [
-      "Xe ô tô tải, xe mô tô. 3. Xe ô tô tải, xe ô tô con.",
-      "Xe ô tô khách, xe mô tô. 4. Xe mô tô, xe ô tô con."
+      "Xe ô tô tải, xe mô tô. ",
+      " Xe ô tô tải, xe ô tô con.",
+      "Xe ô tô khách, xe mô tô.",
+      " Xe mô tô, xe ô tô con."
     ],
-    correctAnswer: 1,
+      image: "/images250/image250_202.png",
+    correctAnswer: 2,
   },
 
   {
     id: 203,
     question: "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao thông?",
     answers: [
-      "Xe ô tô khách, xe mô tô. 3. Xe ô tô con, xe ô tô tải.",
+      "Xe ô tô khách, xe mô tô. ",
+      "Xe ô tô con, xe ô tô tải.",
       "Xe ô tô tải, xe mô tô."
     ],
+      image: "/images250/image250_203.png",
     correctAnswer: 0,
   },
 
@@ -2209,7 +2237,7 @@ export const candQuestions250: Question[] = [
       "Xe mô tô, xe ô tô khách, xe ô tô con, xe ô tô tải."
     ],
     correctAnswer: 0,
-    image: "/images250/question_206.jpeg",
+    image: "/images250/question_204.jpeg",
   },
 
   {
@@ -2218,8 +2246,9 @@ export const candQuestions250: Question[] = [
     answers: [
       "Xe công an đi làm nhiệm vụ, xe quân sự đi làm nhiệm vụ, xe ô tô + xe mô tô.",
       "Xe quân sự đi làm nhiệm vụ, xe công an đi làm nhiệm vụ, xe ô tô + xe mô tô.",
-      "Xe ô tô + xe mô tô, xe quân sự đi làm nhiệm vụ, xe công an đi làmnhiệm vụ."
+      "Xe ô tô + xe mô tô, xe quân sự đi làm nhiệm vụ, xe công an đi làm nhiệm vụ."
     ],
+      image: "/images250/image250_205.png",
     correctAnswer: 1,
   },
 
@@ -2227,8 +2256,10 @@ export const candQuestions250: Question[] = [
     id: 206,
     question: "Xe của anh (chị) có được phép vượt xe mô tô phía trước không?",
     answers: [
-      "Được vượt. 2. Không được vượt."
+      "Được vượt. ",
+      " Không được vượt."
     ],
+      image: "/images250/image250_206.png",  
     correctAnswer: 0,
   },
 
@@ -2242,37 +2273,44 @@ export const candQuestions250: Question[] = [
       "Xe ô tô tải (2), xe ô tô khách (1)."
     ],
     correctAnswer: 1,
-    image: "/images250/question_209.jpeg",
+    image: "/images250/question_207.jpeg",
   },
 
   {
     id: 208,
     question: "Xe ô tô tải kéo xe mô tô ba bánh như hình này có đúng quy tắc giao thông không?",
     answers: [
-      "Đúng. 2. Không đúng."
+      "Đúng.",
+      " Không đúng."
     ],
-    correctAnswer: 0,
+    image: "/images250/image250_208.png",
+    correctAnswer: 1,
   },
 
   {
     id: 209,
     question: "Xe nào đỗ vi phạm quy tắc giao thông?",
     answers: [
-      "Xe mô tô. 3. Cả ba xe.",
-      "Xe ô tô tải. 4. Xe mô tô và xe ô tô tải."
+      "Xe mô tô. ",
+      " Cả ba xe.",
+      "Xe ô tô tải.",
+      " Xe mô tô và xe ô tô tải."
     ],
-    correctAnswer: 0,
+    image: "/images250/image250_209.png",
+    correctAnswer: 1,
   },
 
   {
     id: 210,
     question: "Xe nào đỗ vi phạm quy tắc giao thông?",
     answers: [
-      "Cả hai xe. 3. Xe ô tô tải.",
-      "Xe mô tô. 4. Không xe nào vi phạm."
+      "Cả hai xe. ",
+      " Xe ô tô tải.",
+      "Xe mô tô.",
+      "Không xe nào vi phạm."
     ],
     correctAnswer: 0,
-    image: "/images250/question_212.jpeg",
+    image: "/images250/question_210.jpeg",
   },
 
   {
@@ -2282,6 +2320,7 @@ export const candQuestions250: Question[] = [
       "Xe ô tô tải. 3. Cả 3 xe.",
       "Xe ô tô con và xe mô tô. 4. Xe ô tô con và xe ô tô tải."
     ],
+      image: "/images250/image250_211.png",
     correctAnswer: 0,
   },
 
@@ -2289,20 +2328,25 @@ export const candQuestions250: Question[] = [
     id: 212,
     question: "Xe nào vi phạm quy tắc giao thông?",
     answers: [
-      "Xe ô tô con. 2. Xe mô tô. 3. Không xe nào vi phạm."
+      "Xe ô tô con. ",
+      " Xe mô tô.",
+      " Không xe nào vi phạm."
     ],
-    correctAnswer: 0,
+    image: "/images250/image250_212.png",
+    correctAnswer: 1,
   },
 
   {
     id: 213,
     question: "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",
     answers: [
-      "Cả hai xe. 3. Xe ô tô con.",
-      "Xe mô tô. 4. Không xe nào vi phạm."
+      "Cả hai xe. ",
+      "Xe ô tô con.",
+      "Xe mô tô. ",
+      "Không xe nào vi phạm."
     ],
-    correctAnswer: 0,
-    image: "/images250/question_215.jpeg",
+    correctAnswer: 1,
+    image: "/images250/question_213.jpeg",
   },
 
   {
@@ -2313,6 +2357,7 @@ export const candQuestions250: Question[] = [
       "Giảm tốc độ chờ xe container rẽ xong rồi tiếp tục đi.",
       "Vượt về phía bên trái để đi tiếp."
     ],
+    image: "/images250/image250_214.png",
     correctAnswer: 1,
   },
 
@@ -2320,8 +2365,10 @@ export const candQuestions250: Question[] = [
     id: 215,
     question: "Trong trường hợp này, xe ô tô có được phép vượt xe mô tô không?",
     answers: [
-      "Được phép. 2. Không được phép. PHẦN V. VĂN HÓA GIAO THÔNG"
+      "Được phép. ",
+      "Không được phép."
     ],
+    image: "/images250/image250_215.png",
     correctAnswer: 0,
   },
 
@@ -2329,9 +2376,9 @@ export const candQuestions250: Question[] = [
     id: 216,
     question: "Văn hóa giao thông được hiểu như thế nào là đúng?",
     answers: [
-      "Văn hóa giao thông là sự hoàn thiện hệ thống pháp luật điều chỉnh cácmối quan hệ trong hoạt động giao thông vận tải.",
+      "Văn hóa giao thông là sự hoàn thiện hệ thống pháp luật điều chỉnh các mối quan hệ trong hoạt động giao thông vận tải.",
       "Văn hóa giao thông là ý thức chấp hành các quy định pháp luật về trật tự, an toàn giao thông.",
-      "Có thái độ ứng xử đúng mực khi tham gia giao thông và trong thực thipháp luật bảo đảm trật tự, an toàn giao thông.",
+      "Có thái độ ứng xử đúng mực khi tham gia giao thông và trong thực thi pháp luật bảo đảm trật tự, an toàn giao thông.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -2341,9 +2388,9 @@ export const candQuestions250: Question[] = [
     id: 217,
     question: "Văn hóa giao thông của người lái xe Công an nhân dân gồm những tiêu chí gì?",
     answers: [
-      "Gương mẫu trong chấp hành pháp luật về giao thông đường bộ, trong giaotiếp ứng xử đúng mực, thân thiện. Chủ động đảm bảo chất lượng an toàn phươngtiện để sẵn sàng phục vụ cho các tình huống chiến đấu, công tác.",
-      "Có tinh thần ham học hỏi, nâng cao trình độ chuyên môn nghiệp vụ, ứngphó linh hoạt, kịp thời các tình huống xảy ra để đạt hiệu quả tốt nhất.",
-      "Luôn sẵn sàng khắc phục khó khăn, gian khổ, nguy hiểm để hoàn thànhnhiệm vụ.",
+      "Gương mẫu trong chấp hành pháp luật về giao thông đường bộ, trong giao tiếp ứng xử đúng mực, thân thiện. Chủ động đảm bảo chất lượng an toàn phươngtiện để sẵn sàng phục vụ cho các tình huống chiến đấu, công tác.",
+      "Có tinh thần ham học hỏi, nâng cao trình độ chuyên môn nghiệp vụ, ứng phó linh hoạt, kịp thời các tình huống xảy ra để đạt hiệu quả tốt nhất.",
+      "Luôn sẵn sàng khắc phục khó khăn, gian khổ, nguy hiểm để hoàn thành nhiệm vụ.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -2354,7 +2401,7 @@ export const candQuestions250: Question[] = [
     question: "Người lái xe phục vụ chiến đấu trong Công an nhân dân cầnphải đáp ứng những yêu cầu cơ bản nào?",
     answers: [
       "Có sức khỏe, đạo đức, năng lực công tác, kỹ năng điều khiển phương tiện bảo đảm an toàn khi tham gia giao thông.",
-      "Sẵn sàng tham gia chiến đấu; chủ động, tự giác thực hiện nhiệm vụ; linhhoạt, khẩn trương xử lý tình huống phức tạp.",
+      "Sẵn sàng tham gia chiến đấu; chủ động, tự giác thực hiện nhiệm vụ; linh hoạt, khẩn trương xử lý tình huống phức tạp.",
       "Sử dụng được đa dạng các loại xe.",
       "Cả ba ý trên."
     ],
@@ -2365,9 +2412,9 @@ export const candQuestions250: Question[] = [
     id: 219,
     question: "Trách nhiệm của người lái xe khi thực hiện nhiệm vụ dẫn đoàn là gì?",
     answers: [
-      "Sử dụng triệt để các quyền ưu tiên theo quy định khi tình huống khẩn cấpxảy ra; đảm bảo tuyệt đối bí mật về thời gian, địa điểm, các biện pháp chiếnthuật, nghiệp vụ, thông tin liên lạc; nhanh chóng, kịp thời thực hiện theo chươngtrình kế hoạch hoặc chỉ đạo của cấp trên; đảm bảo tuyệt đối an toàn, vận hànhthông suốt, phối hợp nhịp nhàng giữa các lực lượng.",
-      "Kịp thời thực hiện theo chương trình kế hoạch hoặc chỉ đạo của cấp trên;đảm bảo tuyệt đối bí mật về thời gian, địa điểm, các biện pháp chiến thuật,nghiệp vụ; nhanh chóng, đảm bảo tuyệt đối an toàn, vận hành thông suốt, phốihợp nhịp nhàng giữa các lực lượng.",
-      "Sử dụng triệt để các quyền ưu tiên; đảm bảo tuyệt đối bí mật về thời gian,địa điểm; nhanh chóng, kịp thời thực hiện theo chương trình kế hoạch; đảm bảotuyệt đối an toàn, vận hành thông suốt, phối hợp nhịp nhàng giữa các lực lượng."
+      "Sử dụng triệt để các quyền ưu tiên theo quy định khi tình huống khẩn cấp xảy ra; đảm bảo tuyệt đối bí mật về thời gian, địa điểm, các biện pháp chiến thuật, nghiệp vụ, thông tin liên lạc; nhanh chóng, kịp thời thực hiện theo chươngtrình kế hoạch hoặc chỉ đạo của cấp trên; đảm bảo tuyệt đối an toàn, vận hành thông suốt, phối hợp nhịp nhàng giữa các lực lượng.",
+      "Kịp thời thực hiện theo chương trình kế hoạch hoặc chỉ đạo của cấp trên; đảm bảo tuyệt đối bí mật về thời gian, địa điểm, các biện pháp chiến thuật, nghiệp vụ; nhanh chóng, đảm bảo tuyệt đối an toàn, vận hành thông suốt, phối hợp nhịp nhàng giữa các lực lượng.",
+      "Sử dụng triệt để các quyền ưu tiên; đảm bảo tuyệt đối bí mật về thời gian, địa điểm; nhanh chóng, kịp thời thực hiện theo chương trình kế hoạch; đảm bảo tuyệt đối an toàn, vận hành thông suốt, phối hợp nhịp nhàng giữa các lực lượng."
     ],
     correctAnswer: 0,
   },
@@ -2376,16 +2423,16 @@ export const candQuestions250: Question[] = [
     id: 220,
     question: "Yêu cầu đối với người lái xe khi thực hiện nhiệm vụ cảnh vệ, dẫn đoàn, lễ tân ngoại giao là gì?",
     answers: [
-      "Có hiểu biết về giao thông, được đào tạo chuyên sâu nắm vững quy trình dẫn đoàn, công tác cảnh vệ, kinh nghiệm xử lý tình huống khi thực hiện nhiệmvụ.",
-      "Có bản lĩnh chính trị vững vàng, được đào tạo chuyên sâu nắm vững quytrình dẫn đoàn, công tác cảnh vệ, có kiến thức nghi lễ Nhà nước, nghi thức ngoạigiao, am hiểu ngoại ngữ, kỹ năng lái xe và kinh nghiệm xử lý tình huống khi thực hiện nhiệm vụ.",
-      "Nắm vững quy trình dẫn đoàn, công tác cảnh vệ, có kiến thức nghi lễ Nhànước, nghi thức ngoại giao, am hiểu ngoại ngữ, kỹ năng lái xe và kinh nghiệm xửlý tình huống khi thực hiện nhiệm vụ."
+      "Có hiểu biết về giao thông, được đào tạo chuyên sâu nắm vững quy trình dẫn đoàn, công tác cảnh vệ, kinh nghiệm xử lý tình huống khi thực hiện nhiệm vụ.",
+      "Có bản lĩnh chính trị vững vàng, được đào tạo chuyên sâu nắm vững quy trình dẫn đoàn, công tác cảnh vệ, có kiến thức nghi lễ Nhà nước, nghi thức ngoại giao, am hiểu ngoại ngữ, kỹ năng lái xe và kinh nghiệm xử lý tình huống khi thực hiện nhiệm vụ.",
+      "Nắm vững quy trình dẫn đoàn, công tác cảnh vệ, có kiến thức nghi lễ Nhà nước, nghi thức ngoại giao, am hiểu ngoại ngữ, kỹ năng lái xe và kinh nghiệm xử lý tình huống khi thực hiện nhiệm vụ."
     ],
     correctAnswer: 1,
   },
 
   {
     id: 221,
-    question: "Theo thống kê, phân tích của các cơ quan chức năng, nguyênnhân nào chiếm đa số các vụ tai nạn giao thông đường bộ?",
+    question: "Theo thống kê, phân tích của các cơ quan chức năng, nguyên nhân nào chiếm đa số các vụ tai nạn giao thông đường bộ?",
     answers: [
       "Phương tiện giao thông không bảo đảm tiêu chuẩn an toàn kỹ thuật.",
       "Sự cố của đường bộ.",
@@ -2396,7 +2443,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 222,
-    question: "Mục đích tuyên truyền, phổ biến, giáo dục pháp luật vềTTATGTĐB là gì?",
+    question: "Mục đích tuyên truyền, phổ biến, giáo dục pháp luật về TTATGTĐB là gì?",
     answers: [
       "Đưa các chủ trương, chính sách của Đảng, pháp luật của Nhà nước đếnvới các tầng lớp Nhân dân.",
       "Đưa các chủ trương, chính sách của Đảng, pháp luật của Nhà nước đến vớiđội ngũ cán bộ, viên chức, công chức.",
@@ -2407,7 +2454,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 223,
-    question: "“Tiêu chí văn hoá giao thông đường bộ” do Bộ Văn hoá, Thểthao và Du lịch ban hành quy định tiêu chí cụ thể cho những đối tượng nàodưới đây?",
+    question: "“Tiêu chí văn hoá giao thông đường bộ” do Bộ Văn hoá, Thể thao và Du lịch ban hành quy định tiêu chí cụ thể cho những đối tượng nào dưới đây?",
     answers: [
       "Cơ quan quản lý Nhà nước về giao thông; lực lượng làm nhiệm vụ bảo đảm trật tự, an toàn giao thông.",
       "Người tham gia giao thông; chủ phương tiện tham gia giao thông.",
@@ -2419,11 +2466,11 @@ export const candQuestions250: Question[] = [
 
   {
     id: 224,
-    question: "“Tiêu chí Văn hóa giao thông đường bộ” do Bộ Văn hóa, Thểthao và Du lịch quy định những tiêu chí chung nào?",
+    question: "“Tiêu chí Văn hóa giao thông đường bộ” do Bộ Văn hóa, Thể thao và Du lịch quy định những tiêu chí chung nào?",
     answers: [
       "Tự giác chấp hành pháp luật về giao thông; thực hiện nghiêm nhiệm vụ,tác phong chuẩn mực, văn minh; tôn trọng, nhường nhịn, giúp đỡ mọi người khitham gia giao thông.",
       "Có trách nhiệm với bản thân và cộng đồng khi tham gia giao thông; có ýthức văn hóa xây dựng môi trường giao thông thân thiện, an toàn.",
-      "Tuân thủ pháp luật khi xử lý và bị xử lý các hành vi vi phạm trật tự, antoàn giao thông; thực hiện nghiêm nhiệm vụ, tác phong chuẩn mực, văn minh; tạodựng kết cấu hạ tầng giao thông chuẩn mực an toàn.",
+      "Tuân thủ pháp luật khi xử lý và bị xử lý các hành vi vi phạm trật tự, antoàn giao thông; thực hiện nghiêm nhiệm vụ, tác phong chuẩn mực, văn minh; tạo dựng kết cấu hạ tầng giao thông chuẩn mực an toàn.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -2435,7 +2482,7 @@ export const candQuestions250: Question[] = [
     answers: [
       "Nhanh nhạy, linh hoạt trong giải quyết các tình huống ùn tắc, tai nạn giao thông và các tình huống khác phát sinh trong khi thi hành công vụ.",
       "Ứng xử văn minh, không sách nhiễu, tiêu cực khi thi hành công vụ.",
-      "Hướng dẫn, giúp đỡ người tham gia giao thông, đặc biệt là người tàn tật,người cao tuổi, trẻ em và phụ nữ.",
+      "Hướng dẫn, giúp đỡ người tham gia giao thông, đặc biệt là người tàn tật, người cao tuổi, trẻ em và phụ nữ.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -2458,14 +2505,14 @@ export const candQuestions250: Question[] = [
     question: "Người có Giấy phép lái xe do ngành Công an cấp khi không phục vụ trong ngành Công an phải thực hiện quy định nào dưới đây?",
     answers: [
       "Tiếp tục sử dụng Giấy phép lái xe do ngành Công an cấp.",
-      "Phải đến cơ quan quản lý Giấy phép lái xe thuộc ngành giao thông vậntải, quân đội để làm thủ tục đổi Giấy phép lái xe."
+      "Phải đến cơ quan quản lý Giấy phép lái xe thuộc ngành giao thông vận tải, quân đội để làm thủ tục đổi Giấy phép lái xe."
     ],
     correctAnswer: 1,
   },
 
   {
     id: 228,
-    question: "Người tham gia giao thông phải đảm bảo những tiêu chí vănhóa giao thông nào dưới đây?",
+    question: "Người tham gia giao thông phải đảm bảo những tiêu chí văn hóa giao thông nào dưới đây?",
     answers: [
       "Không vi phạm và tiếp tay cho các hành vi vi phạm pháp luật về giao thông đường bộ.",
       "Chấp hành nghiêm túc hệ thống báo hiệu đường bộ, đi đúng phần đường, làn đường quy định; đã uống rượu, bia thì không điều khiển phương tiện tham gia giao thông; không điều khiển xe chạy quá tốc độ quy định.",
@@ -2480,7 +2527,7 @@ export const candQuestions250: Question[] = [
     question: "Để xây dựng văn hóa giao thông, người tham gia giao thông cần có ý thức tự giác thực hiện những nội dung gì?",
     answers: [
       "Tăng cường hiểu biết pháp luật về giao thông đường bộ; chủ động rènluyện, tạo thói quen tự giác, ứng xử có văn hóa trong chấp hành pháp luật về giao thông đường bộ.",
-      "Tôn trọng, nhường nhịn, chia sẻ, giúp đỡ người tham gia giao thông khác,nhất là trong ùn tắc giao thông, khi va chạm, gặp tai nạn giao thông; giúp đỡngười khuyết tật, trẻ em và người cao tuổi; có ý thức trách nhiệm với bản thân vàcộng đồng khi tham gia giao thông; biết bảo vệ, bênh vực cái đúng và phê pháncái sai, vui vẻ nhận lỗi khi vi phạm.",
+      "Tôn trọng, nhường nhịn, chia sẻ, giúp đỡ người tham gia giao thông khác, nhất là trong ùn tắc giao thông, khi va chạm, gặp tai nạn giao thông; giúp đỡngười khuyết tật, trẻ em và người cao tuổi; có ý thức trách nhiệm với bản thân và cộng đồng khi tham gia giao thông; biết bảo vệ, bênh vực cái đúng và phê phán cái sai, vui vẻ nhận lỗi khi vi phạm.",
       "Cả hai ý trên."
     ],
     correctAnswer: 2,
@@ -2488,19 +2535,19 @@ export const candQuestions250: Question[] = [
 
   {
     id: 230,
-    question: "Khi điều khiển phương tiện tham gia giao thông, gặp người đixe đạp bị ngã, anh (chị) sẽ xử lý như thế nào?",
+    question: "Khi điều khiển phương tiện tham gia giao thông, gặp người đi xe đạp bị ngã, anh (chị) sẽ xử lý như thế nào?",
     answers: [
       "Không dừng lại và tiếp tục hành trình.",
-      "Dừng phương tiện, xem xét tình trạng sức khỏe người đi xe đạp, nếu bịthương thì gọi xe cứu thương và thông báo cho người nhà. Nếu người đi xe đạpkhông có vấn đề gì về sức khỏe thì đỡ người, dắt xe đạp vào lề đường và tiếp tụchành trình."
+      "Dừng phương tiện, xem xét tình trạng sức khỏe người đi xe đạp, nếu bị thương thì gọi xe cứu thương và thông báo cho người nhà. Nếu người đi xe đạp không có vấn đề gì về sức khỏe thì đỡ người, dắt xe đạp vào lề đường và tiếp tục hành trình."
     ],
     correctAnswer: 1,
   },
 
   {
     id: 231,
-    question: "Khi đang lái xe, anh (chị) nhìn thấy xe đi phía trước chở vật liệuxây dựng nhưng bạt phủ đã bị bung, rách gây ô nhiễm môi trường và nguyhiểm cho người, phương tiện tham gia giao thông, anh (chị) sẽ xử lý như thế nào?",
+    question: "Khi đang lái xe, anh (chị) nhìn thấy xe đi phía trước chở vật liệu xây dựng nhưng bạt phủ đã bị bung, rách gây ô nhiễm môi trường và nguy hiểm cho người, phương tiện tham gia giao thông, anh (chị) sẽ xử lý như thế nào?",
     answers: [
-      "Tìm cách để ra tín hiệu thông báo cho người lái xe chở vật liệu xây dựngbiết, khắc phục theo đúng quy định của pháp luật.",
+      "Tìm cách để ra tín hiệu thông báo cho người lái xe chở vật liệu xây dựng biết, khắc phục theo đúng quy định của pháp luật.",
       "Tăng tốc vượt qua xe chở vật liệu xây dựng để tiếp tục hành trình của mình.",
       "Ghi nhận và thông báo cho lực lượng Cảnh sát giao thông biết để xử lý.",
       "Ý 1 và ý 3."
@@ -2510,7 +2557,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 232,
-    question: "Khi lái xe trên đường, phát hiện cửa sau bên phụ xe phía trướcđóng không chặt, anh (chị) sẽ xử lý như thế nào?",
+    question: "Khi lái xe trên đường, phát hiện cửa sau bên phụ xe phía trước đóng không chặt, anh (chị) sẽ xử lý như thế nào?",
     answers: [
       "Bấm còi liên tục và cho xe vượt bên trái xe đó, sau đó tiếp tục hành trình.",
       "Tìm cách ra tín hiệu thông báo để người lái xe phía trước biết vấn đề mất an toàn."
@@ -2576,10 +2623,10 @@ export const candQuestions250: Question[] = [
 
   {
     id: 238,
-    question: "Khi thấy người vi phạm pháp luật về TTATGTĐB có hành vi lăngmạ, chửi bới và đe dọa dùng vũ lực với đồng chí Cảnh sát giao thông, anh (chị)xử lý như thế nào?",
+    question: "Khi thấy người vi phạm pháp luật về TTATGTĐB có hành vi lăng mạ, chửi bới và đe dọa dùng vũ lực với đồng chí Cảnh sát giao thông, anh (chị)xử lý như thế nào?",
     answers: [
-      "Vận động người tham gia giao thông cùng phối hợp và hỗ trợ đồng chíCảnh sát giao thông, yêu cầu đối tượng chấp hành đúng pháp luật và không đượccó hành vi lăng mạ, chửi bới và đe dọa dùng vũ lực đối với người thi hành côngvụ.",
-      "Sử dụng thiết bị ghi âm, ghi hình ghi nhận lại tình hình vụ việc để cungcấp cho lực lượng chức năng xử lý.",
+      "Vận động người tham gia giao thông cùng phối hợp và hỗ trợ đồng chí Cảnh sát giao thông, yêu cầu đối tượng chấp hành đúng pháp luật và không được có hành vi lăng mạ, chửi bới và đe dọa dùng vũ lực đối với người thi hành công vụ.",
+      "Sử dụng thiết bị ghi âm, ghi hình ghi nhận lại tình hình vụ việc để cung cấp cho lực lượng chức năng xử lý.",
       "Cả hai ý trên."
     ],
     correctAnswer: 2,
@@ -2587,11 +2634,11 @@ export const candQuestions250: Question[] = [
 
   {
     id: 239,
-    question: "Khi người tham gia giao thông không chấp hành tín hiệu đèngiao thông gây ra những hậu quả nào?",
+    question: "Khi người tham gia giao thông không chấp hành tín hiệu đèn giao thông gây ra những hậu quả nào?",
     answers: [
       "Nguy cơ xảy ra tai nạn giao thông.",
       "Nguy cơ dẫn đến tình trạng giao thông hỗn loạn, ùn tắc giao thông.",
-      "Để lại những ấn tượng không đẹp về tình trạng giao thông ở nước ta vớibạn bè quốc tế.",
+      "Để lại những ấn tượng không đẹp về tình trạng giao thông ở nước ta với bạn bè quốc tế.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -2599,17 +2646,17 @@ export const candQuestions250: Question[] = [
 
   {
     id: 240,
-    question: "Khi người thân của anh (chị) phơi thóc, rơm rạ, nông sản trênđường bộ, anh (chị) nên làm như thế nào?",
+    question: "Khi người thân của anh (chị) phơi thóc, rơm rạ, nông sản trên đường bộ, anh (chị) nên làm như thế nào?",
     answers: [
       "Để người thân phơi thóc, rơm rạ, nông sản trên đường bộ do chỉ phơi ítngày và vẫn còn đường để cho xe đi lại.",
-      "Giải thích và vận động người thân không được phơi thóc, rơm rạ, nôngsản trên đường bộ."
+      "Giải thích và vận động người thân không được phơi thóc, rơm rạ, nông sản trên đường bộ."
     ],
     correctAnswer: 1,
   },
 
   {
     id: 241,
-    question: "Khi tham gia giao thông phát hiện trên đường phố bị đổ nhiềuđống phế thải trái quy định gây mất an toàn giao thông, anh (chị) sẽ xử lý thế nào?",
+    question: "Khi tham gia giao thông phát hiện trên đường phố bị đổ nhiều đống phế thải trái quy định gây mất an toàn giao thông, anh (chị) sẽ xử lý thế nào?",
     answers: [
       "Thông tin kịp thời cho cơ quan chức năng để khắc phục, xử lý.",
       "Không quan tâm, vì cho rằng sẽ có người khác báo cơ quan chức năng."
@@ -2619,10 +2666,10 @@ export const candQuestions250: Question[] = [
 
   {
     id: 242,
-    question: "Anh (chị) nên làm như thế nào khi người thân mua xe nhưngchưa làm thủ tục chuyển quyền sở hữu xe theo quy định?",
+    question: "Anh (chị) nên làm như thế nào khi người thân mua xe nhưng chưa làm thủ tục chuyển quyền sở hữu xe theo quy định?",
     answers: [
-      "Giải thích, hướng dẫn người thân đi làm thủ tục chuyển quyền sở hữu xetheo quy định.",
-      "Không có ý kiến gì để người thân tránh bị xử lý vi phạm qua phương tiện,thiết bị kỹ thuật nghiệp vụ."
+      "Giải thích, hướng dẫn người thân đi làm thủ tục chuyển quyền sở hữu xe theo quy định.",
+      "Không có ý kiến gì để người thân tránh bị xử lý vi phạm qua phương tiện, thiết bị kỹ thuật nghiệp vụ."
     ],
     correctAnswer: 0,
   },
@@ -2631,17 +2678,17 @@ export const candQuestions250: Question[] = [
     id: 243,
     question: "Anh (chị) cho biết ý kiến của mình về hành vi đè lên vạch kênh hoá dòng xe để chuyển hướng phương tiện khi tham gia giao thông đường bộ ?",
     answers: [
-      "Trường hợp có công việc cần thiết hoặc phương tiện lưu thông đông đúc,đi đè lên vạch kênh hoá dòng xe sẽ giúp rút ngắn thời gian di chuyển và giảm ùntắc giao thông.",
-      "Đè lên vạch kênh hoá khi tham gia giao thông là vi phạm pháp luật vềtrật tự an toàn giao thông đường bộ, bị xử phạt vi phạm hành chính trong lĩnh vựcgiao thông đường bộ."
+      "Trường hợp có công việc cần thiết hoặc phương tiện lưu thông đông đúc, đi đè lên vạch kênh hoá dòng xe sẽ giúp rút ngắn thời gian di chuyển và giảm ùntắc giao thông.",
+      "Đè lên vạch kênh hoá khi tham gia giao thông là vi phạm pháp luật về trật tự an toàn giao thông đường bộ, bị xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ."
     ],
     correctAnswer: 1,
   },
 
   {
     id: 244,
-    question: "Khi điều khiển phương tiện tham gia giao thông đường bộ,Cảnh sát giao thông ra hiệu lệnh dừng phương tiện để kiểm tra việc chấp hànhcác quy định pháp luật về trật tự, an toàn giao thông đường bộ, anh (chị) xử lýnhư thế nào?",
+    question: "Khi điều khiển phương tiện tham gia giao thông đường bộ, Cảnh sát giao thông ra hiệu lệnh dừng phương tiện để kiểm tra việc chấp hành các quy định pháp luật về trật tự, an toàn giao thông đường bộ, anh (chị) xử lý như thế nào?",
     answers: [
-      "Không chấp hành hiệu lệnh dừng phương tiện, vì cho rằng bản thân khôngvi phạm pháp luật về trật tự giao thông đường bộ.",
+      "Không chấp hành hiệu lệnh dừng phương tiện, vì cho rằng bản thân không vi phạm pháp luật về trật tự giao thông đường bộ.",
       "Chấp hành hiệu lệnh dừng phương tiện và yêu cầu kiểm tra, kiểm soát.",
       "Dừng phương tiện theo hiệu lệnh nhưng không tắt máy, xuống xe, cự cãi."
     ],
@@ -2652,15 +2699,15 @@ export const candQuestions250: Question[] = [
     id: 245,
     question: "Sau mưa lớn, một đoạn đường bị sụt, lún gây cản trở, mất antoàn giao thông đường bộ, là một người dân sống gần đó, anh (chị) sẽ xử lýnhư thế nào?",
     answers: [
-      "Thực hiện biện pháp cảnh báo an toàn ngay cho người tham gia giao thông đường bộ biết; báo ngay cho cơ quan Công an nơi gần nhất hoặc cơ quanquản lý đường bộ để có phương án khắc phục kịp thời.",
-      "Cảnh báo cho người thân trong gia đình hoặc hàng xóm sống gần đó biếtđể cùng tránh đoạn đường này khi lưu thông. PHẦN VI. KỸ NĂNG PHÕNG CHỐNG CHÁY NỔ,"
+      "Thực hiện biện pháp cảnh báo an toàn ngay cho người tham gia giao thông đường bộ biết; báo ngay cho cơ quan Công an nơi gần nhất hoặc cơ quan quản lý đường bộ để có phương án khắc phục kịp thời.",
+      "Cảnh báo cho người thân trong gia đình hoặc hàng xóm sống gần đó biết để cùng tránh đoạn đường này khi lưu thông."
     ],
     correctAnswer: 0,
   },
 
   {
     id: 246,
-    question: "Trong các loại bình chữa cháy dưới đây, loại bình nào phùhợp nhất để trang bị và sử dụng trong phòng cháy, chữa cháy đối với phươngtiện giao thông cơ giới đường bộ?",
+    question: "Trong các loại bình chữa cháy dưới đây, loại bình nào phù hợp nhất để trang bị và sử dụng trong phòng cháy, chữa cháy đối với phương tiện giao thông cơ giới đường bộ?",
     answers: [
       "Bình chữa cháy dùng chất chữa cháy gốc nước (bình nước chữa cháy) và bình chữa cháy dùng bột chữa cháy loại ABC (bình bột chữa cháy).",
       "Bình chữa cháy dùng bột chữa cháy loại ABC (bình bột chữa cháy) và bình chữa cháy dùng cacbon đioxit (bình C02 chữa cháy).",
@@ -2671,7 +2718,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 247,
-    question: "Theo Anh (chị) để hệ thống điện trên phương tiện giao thông cơ giới đường bộ được đảm bảo an toàn không phát sinh tia lửa gây cháy, cầnchú ý những gì?",
+    question: "Theo Anh (chị) để hệ thống điện trên phương tiện giao thông cơ giới đường bộ được đảm bảo an toàn không phát sinh tia lửa gây cháy, cần chú ý những gì?",
     answers: [
       "Dây dẫn điện, đầu giắc nối phải đảm bảo chất lượng không bị lão hóa không hở.",
       "Không lắp thêm các thiết bị điện có công suất lớn, trích nối vào bất cứ nguồn điện nào (từ bình ắc quy, dây đề, dây đèn...).",
@@ -2686,7 +2733,7 @@ export const candQuestions250: Question[] = [
     question: "Anh (chị) hãy cho biết các biện pháp phòng cháy đối với phương tiện giao thông cơ giới đường bộ?",
     answers: [
       "Không lắp đặt thêm thiết bị điện, phụ kiện không đúng theo thiết kế của nhà sản xuất; tuân thủ quy trình vận hành bảo trì bảo dưỡng định kỳ; cần thường xuyên kiểm tra phương tiện, khi phát hiện thấy dấu hiệu khác lạ cần khắc phục ngay.",
-      "Không mua xăng, dầu ở các điểm bán tự phát, không rõ nguồn gốc; không sửdụng các biện pháp “tiết kiệm nhiên liệu” khi chưa được kiểm chứng về mức độ antoàn có thể gây hỏng xe hoặc dẫn đến nguy cơ xảy ra cháy cao.",
+      "Không mua xăng, dầu ở các điểm bán tự phát, không rõ nguồn gốc; không sử dụng các biện pháp “tiết kiệm nhiên liệu” khi chưa được kiểm chứng về mức độ an toàn có thể gây hỏng xe hoặc dẫn đến nguy cơ xảy ra cháy cao.",
       "Không để các chất dễ cháy, dễ bắt lửa dưới yên xe, trong cốp xe, khi để xe trong nhà, ở nơi trông giữ xe phải tắt khóa điện, đóng chặt nắp bình nhiên liệu, để xa nguồn lửa, nguồn nhiệt.",
       "Cả ba ý trên."
     ],
@@ -2710,7 +2757,7 @@ export const candQuestions250: Question[] = [
     question: "Khi gặp nạn nhân bị bỏng trong vụ tai nạn giao thông, anh (chị) cần làm gì?",
     answers: [
       "Gọi số 115 để thông báo về tình trạng tai nạn và yêu cầu hỗ trợ y tế ngaylập tức. Quan sát hiện trường để giúp nạn nhân, đồng thời tránh gây tổn thươngcho mình.",
-      "Nhanh chóng loại bỏ nguyên nhân gây bỏng bằng cách tách nạn nhânkhỏi vật gây cháy, cởi bỏ quần áo nếu bén lửa, ngâm vùng da bị bỏng vào nướcsạch hoặc đắp khăn mát, lưu ý không dùng khăn hoặc nước quá lạnh.",
+      "Nhanh chóng loại bỏ nguyên nhân gây bỏng bằng cách tách nạn nhân khỏi vật gây cháy, cởi bỏ quần áo nếu bén lửa, ngâm vùng da bị bỏng vào nước sạch hoặc đắp khăn mát, lưu ý không dùng khăn hoặc nước quá lạnh.",
       "Nếu nạn nhân còn tỉnh, cần cho uống bù nước. Trong thời tiết lạnh, cần giữ ấm cho cơ thể nạn nhân, sau đó nhanh chóng đưa đến cơ sở y tế gần nhất.",
       "Cả ba ý trên."
     ],

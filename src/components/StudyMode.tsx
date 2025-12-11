@@ -25,14 +25,14 @@ export function StudyMode() {
               onClick={() => handleSelectLevel('A')}
             >
               <h3 className="font-semibold text-green-800 mb-1">Hạng A</h3>
-              <p className="text-sm text-gray-600">(dành cho mô tô)</p>
+              <p className="text-gray-700 text-sm">(dành cho mô tô)</p>
             </button>
             <button
 className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 shadow-sm"
               onClick={() => handleSelectLevel('B')}
             >
               <h3 className="font-semibold text-blue-800 mb-1">Hạng B</h3>
-              <p className="text-sm text-gray-600">(dành cho ô tô)</p>
+              <p className="text-gray-700 text-sm">(dành cho ô tô)</p>
             </button>
           </div>
         </div>
