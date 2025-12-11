@@ -19,19 +19,32 @@ interface TestModeProps {
 }
 
 export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }: TestModeProps) {
-  // Get random 100 questions on component mount
-  const randomQuestions = useMemo(() => {
-    const shuffled = shuffleArray(questions);
-    return shuffled.slice(0, 30);
-  }, []);
-
-  const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
-    new Array(randomQuestions.length).fill(null)
-  );
+  const [selectedLevel, setSelectedLevel] = useState<'A' | 'B' | null>(null);
+  const [testQuestions, setTestQuestions] = useState<Question[]>([]);
+  const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>([]);
   const [showResults, setShowResults] = useState(false);
   const [isHeaderCompact, setIsHeaderCompact] = useState(false);
-  const [timeLeft, setTimeLeft] = useState<number>(20 * 60); // 20 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState<number>(0);
+  const [timeLimit, setTimeLimit] = useState<number>(0);
+  const [passScore, setPassScore] = useState<number>(0);
   const [isAutoSubmitted, setIsAutoSubmitted] = useState(false);
+
+  const startTest = (level: 'A' | 'B') => {
+    const config = level === 'A'
+      ? { count: 20, limit: 15 * 60, pass: 18 }
+      : { count: 30, limit: 20 * 60, pass: 26 };
+
+    const picked = shuffleArray(questions).slice(0, config.count);
+    setSelectedLevel(level);
+    setTestQuestions(picked);
+    setSelectedAnswers(new Array(config.count).fill(null));
+    setTimeLimit(config.limit);
+    setTimeLeft(config.limit);
+    setPassScore(config.pass);
+    setShowResults(false);
+    setIsAutoSubmitted(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const handleAnswerSelect = (qIndex: number, answerIndex: number) => {
     if (showResults) return;
@@ -44,7 +57,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
     setTimeout(() => {
       // Find next unanswered question
       let nextUnansweredIndex = -1;
-      for (let i = qIndex + 1; i < randomQuestions.length; i++) {
+      for (let i = qIndex + 1; i < testQuestions.length; i++) {
         if (newAnswers[i] === null) {
           nextUnansweredIndex = i;
           break;
@@ -97,27 +110,27 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
   };
 
   const handleReset = () => {
-    setSelectedAnswers(new Array(randomQuestions.length).fill(null));
+    setSelectedAnswers(new Array(testQuestions.length).fill(null));
     setShowResults(false);
   };
 
   const calculateScore = () => {
     let correct = 0;
     selectedAnswers.forEach((answer, index) => {
-      if (answer === randomQuestions[index].correctAnswer) {
+      if (answer === testQuestions[index]?.correctAnswer) {
         correct++;
       }
     });
     return {
       correct,
-      total: randomQuestions.length,
-      percentage: Math.round((correct / randomQuestions.length) * 100),
+      total: testQuestions.length,
+      percentage: testQuestions.length ? Math.round((correct / testQuestions.length) * 100) : 0,
     };
   };
 
   const score = calculateScore();
   const answered = selectedAnswers.filter((a) => a !== null).length;
-  const isPassed = score.correct >= 26;
+  const isPassed = score.correct >= passScore;
 
   // Calculate sticky header top position based on AppHeader state
   const appHeaderHeight = appHeaderCompact ? 56 : 64; // h-14 = 56px, h-16 = 64px
@@ -145,7 +158,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
   // Countdown timer
   useEffect(() => {
-    if (showResults) return; // Stop timer when results are shown
+    if (showResults || timeLimit === 0) return; // Stop timer when results are shown or not started
 
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
@@ -159,7 +172,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [showResults]);
+  }, [showResults, timeLimit]);
 
   // Handle scroll for sticky header
   useEffect(() => {
@@ -175,6 +188,32 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [onAppHeaderCompactChange]);
+
+  if (!selectedLevel) {
+    return (
+      <div className="max-w-3xl mx-auto space-y-6">
+        <div className="bg-white shadow-lg rounded-xl p-6 border border-green-100">
+          <h2 className="text-green-800 text-xl font-semibold mb-4">Hãy chọn hạng bằng lái:</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <button
+              className="w-full text-left p-4 rounded-lg border border-green-200 bg-green-50 hover:bg-green-100 transition-all duration-200 shadow-sm"
+              onClick={() => startTest('A')}
+            >
+              <p className="text-green-800 font-semibold">Hạng A</p>
+              <p className="text-gray-700 text-sm">20 câu – 15 phút</p>
+            </button>
+            <button
+              className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 transition-all duration-200 shadow-sm"
+              onClick={() => startTest('B')}
+            >
+              <p className="text-blue-800 font-semibold">Hạng B</p>
+              <p className="text-gray-700 text-sm">30 câu – 20 phút</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (showResults) {
     return (
@@ -224,7 +263,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
         {/* Detailed Results */}
         <div className="space-y-4">
           <h3 className="text-gray-800">Xem lại đáp án</h3>
-          {randomQuestions.map((q, qIndex) => {
+          {testQuestions.map((q: Question, qIndex: number) => {
             const userAnswer = selectedAnswers[qIndex];
             const isCorrect = userAnswer === q.correctAnswer;
             
@@ -279,7 +318,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
                 </div>
 
                 <div className="p-6 space-y-3">
-                  {q.answers.map((answer, index) => {
+                  {q.answers.map((answer: string, index: number) => {
                     const isUserAnswer = index === userAnswer;
                     const isCorrectAnswer = index === q.correctAnswer;
 
@@ -355,11 +394,11 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
             <div className="min-w-0">
               <h2 className={`text-green-800 transition-all duration-200 font-semibold ${
                 isHeaderCompact ? 'text-sm' : 'text-xl'
-              }`}> <h2 className="text-green-800">Thi thử</h2></h2>
+              }`}>Thi thử</h2>
               <p className={`text-gray-600 transition-all duration-200 ${
                 isHeaderCompact ? 'hidden' : 'text-xs'
               }`}>
-              <p className="text-gray-600">Đã trả lời {answered} trên {randomQuestions.length} câu hỏi</p> 
+                Đã trả lời {answered} trên {testQuestions.length} câu hỏi
               </p>
             </div>
             <div className="flex items-center gap-2 flex-wrap">
@@ -388,7 +427,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
                 <span className={`text-green-700 font-medium transition-all duration-200 ${
                   isHeaderCompact ? 'text-xs' : 'text-sm'
                 }`}>
-                  {answered}/{randomQuestions.length}
+                  {answered}/{testQuestions.length}
                 </span>
               </div>
             </div>
@@ -407,7 +446,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
                   : 'bg-green-500'
               }`}
               style={{
-                width: `${(timeLeft / (20 * 60)) * 100}%`,
+                width: `${timeLimit ? (timeLeft / timeLimit) * 100 : 0}%`,
               }}
             />
           </div>
@@ -416,7 +455,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
       {/* Questions List */}
       <div className="space-y-6 px-4 mt-6">
-        {randomQuestions.map((question, qIndex) => {
+        {testQuestions.map((question: Question, qIndex: number) => {
           const isAnswered = selectedAnswers[qIndex] !== null;
           const selectedIndex = selectedAnswers[qIndex];
 
@@ -451,7 +490,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
               {/* Answers */}
               <div className="p-6 space-y-3">
-                {question.answers.map((answer, index) => {
+                {question.answers.map((answer: string, index: number) => {
                   const isSelected = selectedIndex === index;
                   return (
                     <button
@@ -494,7 +533,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
       {/* Submit Button */}
       <div id="submit-button" className="flex items-center justify-center px-4 scroll-mt-24 gap-3 flex-wrap">
-        {answered === randomQuestions.length && (
+        {answered === testQuestions.length && (
           <button
             onClick={handleSubmit}
             className="px-8 py-3 rounded-lg bg-gradient-to-r from-green-500 to-green-600 text-white hover:from-green-600 hover:to-green-700 transition-all duration-200 shadow-lg hover:shadow-xl"
@@ -502,10 +541,10 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
             Nộp bài kiểm tra
           </button>
         )}
-        {answered < randomQuestions.length && (
+        {answered < testQuestions.length && (
           <div className="text-center">
             <p className="text-gray-600 text-sm mb-2">
-              Bạn còn {randomQuestions.length - answered} câu chưa trả lời
+              Bạn còn {testQuestions.length - answered} câu chưa trả lời
             </p>
             <button
               onClick={handleSubmit}
