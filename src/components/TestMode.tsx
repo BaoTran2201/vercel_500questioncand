@@ -297,11 +297,13 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
                       <div className="flex-1">
                         <p className="text-gray-800 text-2xl leading-relaxed" style={{fontWeight: 750}}>{q.question}</p>
                         {q.image && (
-                          <ImageWithFallback
-                            src={q.image}
-                            alt={`Question ${q.id}`}
-                            className="max-w-sm h-auto rounded-lg border border-gray-300 mt-3"
-                          />
+                          <div className="flex justify-center">
+                            <ImageWithFallback
+                              src={q.image}
+                              alt={`Question ${q.id}`}
+                              className="max-w-sm h-auto rounded-lg border border-gray-300 mt-3"
+                            />
+                          </div>
                         )}
                       </div>
                     </div>
@@ -481,7 +483,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
 
               {/* Question Image */}
               {question.image && (
-                <div className="px-6 py-4 border-b border-green-100 bg-gray-50">
+                <div className="px-6 py-4 border-b border-green-100 bg-gray-50 flex justify-center">
                   <ImageWithFallback
                     src={question.image}
                     alt={`Question ${question.id}`}

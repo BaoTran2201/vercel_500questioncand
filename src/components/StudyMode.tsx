@@ -89,7 +89,7 @@ className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hov
 
             {/* Question Image */}
             {q.image && (
-              <div className="px-6 py-4 border-b border-green-100 bg-gray-50">
+              <div className="px-6 py-4 border-b border-green-100 bg-gray-50 flex justify-center">
                 <ImageWithFallback
                   src={q.image}
                   alt={`Question ${q.id}`}
