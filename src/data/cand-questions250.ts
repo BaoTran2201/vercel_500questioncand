@@ -1,4 +1,4 @@
-﻿export interface Question {
+export interface Question {
   id: number;
   question: string;
   answers: string[];
@@ -113,7 +113,7 @@ export const candQuestions250: Question[] = [
     answers: [
       "Điều khiển phương tiện tham gia giao thông đường bộ lạng lách, đánh võng, rú ga liên tục.",
       "Đua xe, tổ chức đua xe, xúi giục, giúp sức, cổ vũ đua xe trái phép.",
-      "Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh,hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ.",
+      "Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -255,7 +255,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 23,
-    question: "Khi người điều khiển giao thông ra hiệu lệnh: “tay bên phải giơthẳng đứng”, người tham gia giao thông đường bộ phải thực hiện như thế nào?",
+    question: "Khi người điều khiển giao thông ra hiệu lệnh: “tay bên phải giơ thẳng đứng”, người tham gia giao thông đường bộ phải thực hiện như thế nào?",
     answers: [
       "Người tham gia giao thông ở phía trước và ở phía sau người điều khiển giao thông phải dừng lại; người tham gia giao thông ở phía bên phải và bên trái người điều khiển được đi.",
       "Người tham gia giao thông ở phía trước và ở phía sau người điều khiển giao thông được đi thẳng; người tham gia giao thông ở phía bên phải và bên trái người điều khiển được đi thẳng và rẽ phải.",
@@ -276,7 +276,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 25,
-    question: "Khi người điều khiển giao thông ra hiệu lệnh: “tay phải giơ vềphía trước”, người tham gia giao thông đường bộ phải thực hiện như thế nào?",
+    question: "Khi người điều khiển giao thông ra hiệu lệnh: “tay phải giơ về phía trước”, người tham gia giao thông đường bộ phải thực hiện như thế nào?",
     answers: [
       "Người tham gia giao thông đường bộ ở phía sau và bên phải người điều khiển giao thông phải dừng lại; người đi bộ qua đường phải đi sau lưng người điều khiển giao thông.",
       "Người tham gia giao thông đường bộ ở phía bên trái người điều khiển giao thông được đi tất cả các hướng.",
@@ -290,9 +290,9 @@ export const candQuestions250: Question[] = [
     id: 26,
     question: "Tại nơi đường giao nhau khi đèn điều khiển giao thông có tín hiệu màu vàng, người tham gia giao thông đường bộ phải thực hiện thế nào?",
     answers: [
-      "Người điều khiển phương tiện nhanh chóng cho xe vượt qua vạch dừng đểđi qua đường giao nhau.",
+      "Người điều khiển phương tiện nhanh chóng cho xe vượt qua vạch dừng để đi qua đường giao nhau.",
       "Trong trường hợp tín hiệu vàng nhấp nháy là được đi nhưng phải giảm tốc độ và cho xe vượt qua vạch dừng để đi qua đường giao nhau.",
-      "Phải dừng lại trước vạch dừng; trường hợp đang đi trên vạch dừng hoặcđã đi qua vạch dừng mà tín hiệu đèn màu vàng thì được đi tiếp; trường hợp tínhiệu đèn màu vàng nhấp nháy, người điều khiển phương tiện tham gia giao thông đường bộ được đi nhưng phải quan sát, giảm tốc độ hoặc dừng lại nhường đườngcho người đi bộ, xe lăn của người khuyết tật qua đường hoặc các phương tiện khác."
+      "Phải dừng lại trước vạch dừng; trường hợp đang đi trên vạch dừng hoặc đã đi qua vạch dừng mà tín hiệu đèn màu vàng thì được đi tiếp; trường hợp tín hiệu đèn màu vàng nhấp nháy, người điều khiển phương tiện tham gia giao thông đường bộ được đi nhưng phải quan sát, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường hoặc các phương tiện khác."
     ],
     correctAnswer: 2,
   },
@@ -341,11 +341,11 @@ export const candQuestions250: Question[] = [
 
   {
     id: 31,
-    question: "Trong Luật TTATGTĐB, “vạch kẻ đường” được quy định nhưthế nào?",
+    question: "Trong Luật TTATGTĐB, “vạch kẻ đường” được quy định như thế nào?",
     answers: [
       "Vạch kẻ đường là vạch chỉ sự phân biệt vị trí dừng đỗ trên đường.",
       "Vạch kẻ đường là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại.",
-      "Vạch kẻ đường là vạch dùng để phân chia dòng phương tiện hai hướngngược chiều nhau trên các đường có hai hoặc ba làn xe chạy.",
+      "Vạch kẻ đường là vạch dùng để phân chia dòng phương tiện hai hướng ngược chiều nhau trên các đường có hai hoặc ba làn xe chạy.",
       "Cả ba ý trên."
     ],
     correctAnswer: 1,
@@ -410,7 +410,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 37,
-    question: "Khi qua khu vực đông dân cư, chợ, khu vực đang thi công trênđường bộ người điều khiển phương tiện tham gia giao thông đường bộ phải làm gì?",
+    question: "Khi qua khu vực đông dân cư, chợ, khu vực đang thi công trên đường bộ người điều khiển phương tiện tham gia giao thông đường bộ phải làm gì?",
     answers: [
       "Phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn.",
       "Phải quan sát, giảm tốc độ và dừng lại để bảo đảm an toàn."
@@ -432,9 +432,9 @@ export const candQuestions250: Question[] = [
     id: 39,
     question: "Người điều khiển xe thô sơ, xe cơ giới và xe máy chuyên dùngphải đi như thế nào trên đường một chiều có vạch kẻ phân làn đường?",
     answers: [
-      "Xe thô sơ phải đi trên làn đường bên phải trong cùng, xe cơ giới, xe máychuyên dùng đi trên làn đường bên trái.",
-      "Xe thô sơ phải đi trên làn đường bên trái trong cùng, xe cơ giới, xe máychuyên dùng đi trên làn đường bên phải.",
-      "Xe thô sơ đi trên làn đường phù hợp không gây cản trở giao thông, xe cơgiới, xe máy chuyên dùng đi trên làn đường bên phải."
+      "Xe thô sơ phải đi trên làn đường bên phải trong cùng, xe cơ giới, xe máy chuyên dùng đi trên làn đường bên trái.",
+      "Xe thô sơ phải đi trên làn đường bên trái trong cùng, xe cơ giới, xe máy chuyên dùng đi trên làn đường bên phải.",
+      "Xe thô sơ đi trên làn đường phù hợp không gây cản trở giao thông, xe cơ giới, xe máy chuyên dùng đi trên làn đường bên phải."
     ],
     correctAnswer: 0,
   },
@@ -644,7 +644,7 @@ export const candQuestions250: Question[] = [
     question: "Người lái xe mô tô hai bánh khi tham gia giao thông đường bộ không được thực hiện hành vi nào dưới đây?",
     answers: [
       "Sử dụng ô, thiết bị âm thanh, trừ thiết bị trợ thính.",
-      "Đi xe dàn hàng ngang; sử dụng chân chống hoặc vật khác quệt xuốngđường khi xe đang chạy.",
+      "Đi xe dàn hàng ngang; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy.",
       "Ngồi về một bên điều khiển xe; đứng, nằm trên xe điều khiển xe; thay người lái xe khi xe đang chạy.",
       "Cả ba ý trên."
     ],
@@ -706,7 +706,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 64,
-    question: "Cá nhân vi phạm pháp luật về trật tự, an toàn giao thông đường bộ mà chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền vềgiải quyết vụ việc vi phạm hành chính có được giải quyết việc đăng ký phươngtiện vi phạm không?",
+    question: "Cá nhân vi phạm pháp luật về trật tự, an toàn giao thông đường bộ mà chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết vụ việc vi phạm hành chính có được giải quyết việc đăng ký phương tiện vi phạm không?",
     answers: [
       "Chưa được giải quyết.",
       "Được giải quyết.",
@@ -719,9 +719,9 @@ export const candQuestions250: Question[] = [
     id: 65,
     question: "Người lái xe khi điều khiển phương tiện tham gia giao thông đường bộ phải mang theo các loại giấy tờ gì?",
     answers: [
-      "Chứng nhận đăng ký xe hoặc bản sao Chứng nhận đăng ký xe có chứng thực kèm bản gốc giấy tờ xác nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài còn hiệu lực trong trường hợp xe đang được thế chấp tại tổ chức tíndụng, chi nhánh ngân hàng nước ngoài.",
+      "Chứng nhận đăng ký xe hoặc bản sao Chứng nhận đăng ký xe có chứng thực kèm bản gốc giấy tờ xác nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài còn hiệu lực trong trường hợp xe đang được thế chấp tại tổ chức tín dụng, chi nhánh ngân hàng nước ngoài.",
       "Giấy phép lái xe phù hợp với loại xe đang điều khiển; chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới.",
-      "Chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với xecơ giới theo quy định của pháp luật.",
+      "Chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới theo quy định của pháp luật.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -786,8 +786,8 @@ export const candQuestions250: Question[] = [
     id: 71,
     question: "Người có giấy phép lái xe đã bị trừ hết điểm phải làm gì để phục hồi điểm giấy phép lái xe?",
     answers: [
-      "Trong thời gian 12 tháng kể từ ngày bị trừ hết điểm không vi phạm phápluật TTATGTĐB được phục hồi đủ 12 điểm.",
-      "Sau thời hạn ít nhất là 06 tháng kể từ ngày bị trừ hết điểm, người có giấy phép lái xe được tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, antoàn giao thông đường bộ và có kết quả đạt yêu cầu thì được phục hồi đủ 12 điểm.",
+      "Trong thời gian 12 tháng kể từ ngày bị trừ hết điểm không vi phạm pháp luật TTATGTĐB được phục hồi đủ 12 điểm.",
+      "Sau thời hạn ít nhất là 06 tháng kể từ ngày bị trừ hết điểm, người có giấy phép lái xe được tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và có kết quả đạt yêu cầu thì được phục hồi đủ 12 điểm.",
       "Cả hai ý trên."
     ],
     correctAnswer: 1,
@@ -948,7 +948,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 86,
-    question: "Trong khu vực đông dân cư, tốc độ tối đa cho phép đối với xe môtô tham gia giao thông trên đường hai chiều; đường một chiều có một làn xecơ giới là bao nhiêu?",
+    question: "Trong khu vực đông dân cư, tốc độ tối đa cho phép đối với xe môtô tham gia giao thông trên đường hai chiều; đường một chiều có một làn xe cơ giới là bao nhiêu?",
     answers: [
       "30 km/h. ",
       " 50 km/h.",
@@ -972,7 +972,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 88,
-    question: "Ngoài khu vực đông dân cư, tốc độ tối đa cho phép đối với xe môtô tham gia giao thông trên đường hai chiều; đường một chiều có một làn xecơ giới là bao nhiêu?",
+    question: "Ngoài khu vực đông dân cư, tốc độ tối đa cho phép đối với xe môtô tham gia giao thông trên đường hai chiều; đường một chiều có một làn xe cơ giới là bao nhiêu?",
     answers: [
       "70 km/h.",
       "60 km/h.",
@@ -1017,7 +1017,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 92,
-    question: "Biển nào báo cấm tất cả các loại phương tiện đi lại cả hai hướngtrừ các xe được ưu tiên theo luật định (nếu đường vẫn cho xe chạy được)?",
+    question: "Biển nào báo cấm tất cả các loại phương tiện đi lại cả hai hướng trừ các xe được ưu tiên theo luật định (nếu đường vẫn cho xe chạy được)?",
     answers: [
       "Biển 1. ", " Biển 2.", " Cả hai biển."
     ],
@@ -1230,7 +1230,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 113,
-    question: "Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đingược chiều, xe đi ở chiều đường bị hẹp phải nhường đường cho xe đi ngượcchiều?",
+    question: "Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đingược chiều, xe đi ở chiều đường bị hẹp phải nhường đường cho xe đi ngược chiều?",
     answers: [
       "Biển 1. ", " Biển 2 và 3. ", " Cả ba biển."
     ],
@@ -1270,7 +1270,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 117,
-    question: "Gặp biển nào người lái xe phải giảm tốc độ, nhường ưu tiên chongười đi bộ?",
+    question: "Gặp biển nào người lái xe phải giảm tốc độ, nhường ưu tiên cho người đi bộ?",
     answers: [
       "Biển 1. ", " Biển 3. ", " Biển 2. ", " Biển 1 và 3"
     ],
@@ -1380,7 +1380,7 @@ export const candQuestions250: Question[] = [
       "Dốc xuống nguy hiểm.",
       "Dốc lên nguy hiểm.",
       "Báo trước chiều dài đoạn đường dốc xuống nguy hiểm.",
-      "Báo trước chiều dài đoạn đườngdốc lên nguy hiểm."
+      "Báo trước chiều dài đoạn đường dốc lên nguy hiểm."
     ],
     image: "/images250/image250_127.png",
     correctAnswer: 2,
@@ -1519,7 +1519,7 @@ export const candQuestions250: Question[] = [
     question: "Biển này có ý nghĩa gì?",
     answers: [
       "Chỉ dẫn chướng ngại vật phía trước để cảnh báo phía trước có sự cản trở lưu thông bình thường (nằm bên trong phần xe chạy hay ngay sát phần đường xe chạy) và chỉ dẫn hướng đi qua đó cần đặt biển.",
-      "Chỉ dẫn hướng rẽ để nhắcngười điều khiển phương tiện chuẩnbị đổi hướng đi khi sắp vào đườngcong nguy hiểm, có bán kính congnhỏ. PHẦN III. KỸ THUẬT LÁI XE"
+      "Chỉ dẫn hướng rẽ để nhắc người điều khiển phương tiện chuẩn bị đổi hướng đi khi sắp vào đường cong nguy hiểm, có bán kính cong nhỏ. PHẦN III. KỸ THUẬT LÁI XE"
     ],
     correctAnswer: 1,
     image: "/images250/question_140.jpeg",
@@ -1812,7 +1812,7 @@ export const candQuestions250: Question[] = [
     question: "Tại những khu vực giao thông phức tạp, có mật độ phương tiện đông, người lái xe xử lý như thế nào?",
     answers: [
       "Tăng tốc độ nhanh chóng đi qua nơi giao nhau.",
-      "Giảm tốc độ, quan sát rộng, nhanh từ các hướng, sử dụng kết hợp cácphương pháp phanh xe và đưa ra cách xử lý phù hợp.",
+      "Giảm tốc độ, quan sát rộng, nhanh từ các hướng, sử dụng kết hợp các phương pháp phanh xe và đưa ra cách xử lý phù hợp.",
       "Chú ý quan sát, bấm còi liên tục và tăng tốc độ nhanh chóng đi qua nơi giao nhau."
     ],
     correctAnswer: 1,
@@ -1822,8 +1822,8 @@ export const candQuestions250: Question[] = [
     id: 168,
     question: "Điều khiển xe mô tô vào ban đêm, người lái xe xử lý như thế nào?",
     answers: [
-      "Phải chú ý đến điều kiện giao thông, chướng ngại vật, các phương tiệngiao thông khác đang lưu thông trên đường, nhất là các phương tiện đi ngượcchiều và điều khiển xe với tốc độ cao hơn so với ban ngày.",
-      "Sử dụng đèn chiếu sáng phù hợp, luôn giữ tỉnh táo mọi thời điểm, chuyểnhướng nhìn thường xuyên hơn, chú ý chướng ngại vật nhất là các phương tiện đingược chiều và điều khiển xe với tốc độ thấp hơn so với ban ngày."
+      "Phải chú ý đến điều kiện giao thông, chướng ngại vật, các phương tiện giao thông khác đang lưu thông trên đường, nhất là các phương tiện đi ngược chiều và điều khiển xe với tốc độ cao hơn so với ban ngày.",
+      "Sử dụng đèn chiếu sáng phù hợp, luôn giữ tỉnh táo mọi thời điểm, chuyển hướng nhìn thường xuyên hơn, chú ý chướng ngại vật nhất là các phương tiện đi ngược chiều và điều khiển xe với tốc độ thấp hơn so với ban ngày."
     ],
     correctAnswer: 1,
   },
@@ -1842,8 +1842,8 @@ export const candQuestions250: Question[] = [
     id: 170,
     question: "Khi điều khiển xe mô tô lên dốc cao, người lái xe xử lý như thế nào?",
     answers: [
-      "Điều chỉnh ga cho xe đi từ từ lên dốc; đến gần đỉnh dốc phải tăng ga để xenhanh chóng qua dốc; về số thấp; đi sát về phía bên phải đường, có tín hiệu (còi,đèn) để báo cho người lái xe đi ngược chiều biết.",
-      "Về số thấp từ chân dốc (đối với xe số); điều chỉnh ga cho xe đi từ từ lêndốc; đến gần đỉnh dốc phải đi chậm, đi sát về phía bên phải đường, có tín hiệu(còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
+      "Điều chỉnh ga cho xe đi từ từ lên dốc; đến gần đỉnh dốc phải tăng ga để xe nhanh chóng qua dốc; về số thấp; đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
+      "Về số thấp từ chân dốc (đối với xe số); điều chỉnh ga cho xe đi từ từ lên dốc; đến gần đỉnh dốc phải đi chậm, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
       "Cả hai ý trên."
     ],
     correctAnswer: 1,
@@ -1865,7 +1865,7 @@ export const candQuestions250: Question[] = [
     question: "Khi điều khiển xe mô tô gặp xe lăn của người khuyết tật qua đường, người lái xe phải xử lý như thế nào?",
     answers: [
       "Giảm tốc độ đến mức không nguy hiểm (có thể dừng lại) nhường đường cho xe lăn của người khuyết tật đi qua.",
-      "Tăng tốc độ, cho xe nhanh chóng vượt qua phía trước xe lăn của ngườikhuyết tật."
+      "Tăng tốc độ, cho xe nhanh chóng vượt qua phía trước xe lăn của người khuyết tật."
     ],
     correctAnswer: 0,
   },
@@ -1949,7 +1949,7 @@ export const candQuestions250: Question[] = [
     id: 180,
     question: "Hãy nêu công dụng hộp số của xe mô tô?",
     answers: [
-      "Truyền và thay đổi mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình xe mô tô chuyển động,chuyển số êm dịu dễ điều khiển.",
+      "Truyền và thay đổi mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình xe mô tô chuyển động, chuyển số êm dịu dễ điều khiển.",
       "Truyền công suất từ động cơ đến bánh xe chủ động, thay đổi tỷ số truyền và mô men xoắn, xe mô tô dừng lại tại chỗ mà không cần tắt máy."
     ],
     correctAnswer: 1,
@@ -2142,7 +2142,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 197,
-    question: "Theo hiệu lệnh của người điều khiển giao thông, xe nào đượcphép đi?",
+    question: "Theo hiệu lệnh của người điều khiển giao thông, xe nào được phép đi?",
     answers: [
       "Xe mô tô, xe ô tô con. ",
       " Xe mô tô, xe ô tô tải.",
@@ -2388,7 +2388,7 @@ export const candQuestions250: Question[] = [
     id: 217,
     question: "Văn hóa giao thông của người lái xe Công an nhân dân gồm những tiêu chí gì?",
     answers: [
-      "Gương mẫu trong chấp hành pháp luật về giao thông đường bộ, trong giao tiếp ứng xử đúng mực, thân thiện. Chủ động đảm bảo chất lượng an toàn phươngtiện để sẵn sàng phục vụ cho các tình huống chiến đấu, công tác.",
+      "Gương mẫu trong chấp hành pháp luật về giao thông đường bộ, trong giao tiếp ứng xử đúng mực, thân thiện. Chủ động đảm bảo chất lượng an toàn phương tiện để sẵn sàng phục vụ cho các tình huống chiến đấu, công tác.",
       "Có tinh thần ham học hỏi, nâng cao trình độ chuyên môn nghiệp vụ, ứng phó linh hoạt, kịp thời các tình huống xảy ra để đạt hiệu quả tốt nhất.",
       "Luôn sẵn sàng khắc phục khó khăn, gian khổ, nguy hiểm để hoàn thành nhiệm vụ.",
       "Cả ba ý trên."
@@ -2468,9 +2468,9 @@ export const candQuestions250: Question[] = [
     id: 224,
     question: "“Tiêu chí Văn hóa giao thông đường bộ” do Bộ Văn hóa, Thể thao và Du lịch quy định những tiêu chí chung nào?",
     answers: [
-      "Tự giác chấp hành pháp luật về giao thông; thực hiện nghiêm nhiệm vụ,tác phong chuẩn mực, văn minh; tôn trọng, nhường nhịn, giúp đỡ mọi người khitham gia giao thông.",
-      "Có trách nhiệm với bản thân và cộng đồng khi tham gia giao thông; có ýthức văn hóa xây dựng môi trường giao thông thân thiện, an toàn.",
-      "Tuân thủ pháp luật khi xử lý và bị xử lý các hành vi vi phạm trật tự, antoàn giao thông; thực hiện nghiêm nhiệm vụ, tác phong chuẩn mực, văn minh; tạo dựng kết cấu hạ tầng giao thông chuẩn mực an toàn.",
+      "Tự giác chấp hành pháp luật về giao thông; thực hiện nghiêm nhiệm vụ, tác phong chuẩn mực, văn minh; tôn trọng, nhường nhịn, giúp đỡ mọi người khi tham gia giao thông.",
+      "Có trách nhiệm với bản thân và cộng đồng khi tham gia giao thông; có ý thức văn hóa xây dựng môi trường giao thông thân thiện, an toàn.",
+      "Tuân thủ pháp luật khi xử lý và bị xử lý các hành vi vi phạm trật tự, an toàn giao thông; thực hiện nghiêm nhiệm vụ, tác phong chuẩn mực, văn minh; tạo dựng kết cấu hạ tầng giao thông chuẩn mực an toàn.",
       "Cả ba ý trên."
     ],
     correctAnswer: 3,
@@ -2527,7 +2527,7 @@ export const candQuestions250: Question[] = [
     question: "Để xây dựng văn hóa giao thông, người tham gia giao thông cần có ý thức tự giác thực hiện những nội dung gì?",
     answers: [
       "Tăng cường hiểu biết pháp luật về giao thông đường bộ; chủ động rènluyện, tạo thói quen tự giác, ứng xử có văn hóa trong chấp hành pháp luật về giao thông đường bộ.",
-      "Tôn trọng, nhường nhịn, chia sẻ, giúp đỡ người tham gia giao thông khác, nhất là trong ùn tắc giao thông, khi va chạm, gặp tai nạn giao thông; giúp đỡngười khuyết tật, trẻ em và người cao tuổi; có ý thức trách nhiệm với bản thân và cộng đồng khi tham gia giao thông; biết bảo vệ, bênh vực cái đúng và phê phán cái sai, vui vẻ nhận lỗi khi vi phạm.",
+      "Tôn trọng, nhường nhịn, chia sẻ, giúp đỡ người tham gia giao thông khác, nhất là trong ùn tắc giao thông, khi va chạm, gặp tai nạn giao thông; giúp đỡ người khuyết tật, trẻ em và người cao tuổi; có ý thức trách nhiệm với bản thân và cộng đồng khi tham gia giao thông; biết bảo vệ, bênh vực cái đúng và phê phán cái sai, vui vẻ nhận lỗi khi vi phạm.",
       "Cả hai ý trên."
     ],
     correctAnswer: 2,
@@ -2567,7 +2567,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 233,
-    question: "Kết thúc buổi liên hoan mà tất cả mọi người đều đã uống bia,rượu, có người trong nhóm lái xe rủ anh (chị) đi cùng, anh (chị) sẽ xử lý thế nào?",
+    question: "Kết thúc buổi liên hoan mà tất cả mọi người đều đã uống bia, rượu, có người trong nhóm lái xe rủ anh (chị) đi cùng, anh (chị) sẽ xử lý thế nào?",
     answers: [
       "Từ chối không đi và khuyên người bạn nên gửi xe lại do đã uống bia, rượu.",
       "Kiên quyết không đi cùng vì sợ tai nạn.",
@@ -2697,7 +2697,7 @@ export const candQuestions250: Question[] = [
 
   {
     id: 245,
-    question: "Sau mưa lớn, một đoạn đường bị sụt, lún gây cản trở, mất antoàn giao thông đường bộ, là một người dân sống gần đó, anh (chị) sẽ xử lýnhư thế nào?",
+    question: "Sau mưa lớn, một đoạn đường bị sụt, lún gây cản trở, mất an toàn giao thông đường bộ, là một người dân sống gần đó, anh (chị) sẽ xử lý như thế nào?",
     answers: [
       "Thực hiện biện pháp cảnh báo an toàn ngay cho người tham gia giao thông đường bộ biết; báo ngay cho cơ quan Công an nơi gần nhất hoặc cơ quan quản lý đường bộ để có phương án khắc phục kịp thời.",
       "Cảnh báo cho người thân trong gia đình hoặc hàng xóm sống gần đó biết để cùng tránh đoạn đường này khi lưu thông."

@@ -32,12 +32,12 @@ export default function App() {
               <div className={`bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center overflow-hidden transition-all duration-200 ${
                 isAppHeaderCompact ? 'w-8 h-8' : 'w-10 h-10'
               }`}>
-                <img src={miniLogo} alt="Logo" className="w-full h-full object-contain" />
+                <img src={miniLogo} alt="Logo" className="h-full w-auto max-w-full object-contain" />
               </div>
               {!isAppHeaderCompact && (
                 <div>
-                  <h1 className="text-green-800 text-sm font-semibold">TRUNG TÂM DN&ĐTLX</h1>
-                  <p className="text-xs text-gray-500">TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1</p>
+                  <h1 className="text-green-800 text-sm font-semibold ">TRUNG TÂM DN&ĐTLX</h1>
+                  <p className="text-xs text-gray-400">TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1</p>
                 </div>
               )}
             </div>
