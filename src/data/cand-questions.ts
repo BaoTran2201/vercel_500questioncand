@@ -26,7 +26,7 @@ export const candQuestions: Question[] = [
       'Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn.',
       'Cả hai ý trên.',
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
   },
   {
     id: 3,

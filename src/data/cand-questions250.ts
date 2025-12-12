@@ -1,4 +1,4 @@
-export interface Question {
+﻿export interface Question {
   id: number;
   question: string;
   answers: string[];
@@ -2260,7 +2260,7 @@ export const candQuestions250: Question[] = [
       " Không được vượt."
     ],
       image: "/images250/image250_206.png",  
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
 
   {
