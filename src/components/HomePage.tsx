@@ -20,7 +20,7 @@ export function HomePage() {
   return (
     <div className="space-y-8">
       {/* Introduction Section */}
-      <section className="bg-white rounded-xl shadow-lg p-8 md:p-10 border border-green-100">
+      <section className="bg-white rounded-xl shadow-lg p-4 sm:p-8 md:p-10 border border-green-100">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center mx-auto mb-4">
@@ -277,17 +277,17 @@ export function HomePage() {
       </section>
 
       {/* Image Gallery Section */}
-      <section className="bg-white rounded-xl shadow-lg p-8 md:p-10 border border-green-100">
+      <section className="bg-white rounded-xl shadow-lg p-4 sm:p-8 md:p-10 border border-green-100">
         <div className="mb-8 text-center">
-          <h2 className="text-green-800 mb-2">Một số hình ảnh đào tạo lái xe</h2>
+          <h2 className="text-green-800 mb-2 text-lg sm:text-xl">Một số hình ảnh đào tạo lái xe</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {galleryImages.map((image) => (
             <div
               key={image.id}
-              className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200"
+              className="group relative overflow-hidden rounded-lg sm:rounded-xl shadow-sm sm:shadow-md hover:shadow-lg sm:hover:shadow-xl transition-all duration-300 border border-gray-200"
             >
               <div className="aspect-video overflow-hidden bg-gray-100">
                 <img
@@ -307,8 +307,8 @@ export function HomePage() {
       </section>
 
       {/* Quick Access Section */}
-      <section className="grid md:grid-cols-2 gap-6">
-        <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200 p-6 border border-green-100">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+        <div className="bg-white rounded-xl shadow-sm sm:shadow-md hover:shadow-lg transition-shadow duration-200 p-4 sm:p-6 border border-green-100">
           <div className="flex items-center space-x-4 mb-4">
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
               <svg
@@ -333,14 +333,14 @@ export function HomePage() {
           <p className="text-gray-700 mb-4">
             Ôn tập 500 câu hỏi Luật Giao thông Đường bộ với đáp án được làm nổi bật để ghi nhớ hiệu quả.
           </p>
-          <div className="flex items-center space-x-2 text-green-600">
+          <div className="flex items-center space-x-2 text-green-600 text-sm">
             <span className="text-sm">500 câu hỏi</span>
             <span className="text-gray-300">•</span>
             <span className="text-sm">Có đáp án</span>
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200 p-6 border border-green-100">
+        <div className="bg-white rounded-xl shadow-sm sm:shadow-md hover:shadow-lg transition-shadow duration-200 p-4 sm:p-6 border border-green-100">
           <div className="flex items-center space-x-4 mb-4">
             <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
               <svg
@@ -365,7 +365,7 @@ export function HomePage() {
           <p className="text-gray-700 mb-4">
             Thực hành làm bài thi thử với 500 câu hỏi, nhận kết quả chi tiết và xem lại các câu trả lời.
           </p>
-          <div className="flex items-center space-x-2 text-blue-600">
+          <div className="flex items-center space-x-2 text-blue-600 text-sm">
             <span className="text-sm">Bài thi thử</span>
             <span className="text-gray-300">•</span>
             <span className="text-sm">Kết quả chi tiết</span>

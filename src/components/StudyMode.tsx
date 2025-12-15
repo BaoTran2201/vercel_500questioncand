@@ -78,11 +78,11 @@ className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hov
             {/* Question Header */}
             <div className="bg-gradient-to-r from-green-50 to-green-100 px-6 py-4 border-b border-green-200">
               <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 w-10 h-10 bg-green-500 text-white rounded-lg flex items-center justify-center">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 bg-green-500 text-white rounded-lg flex items-center justify-center text-xs sm:text-base">
                   {q.id}
                 </div>
                 <div className="flex-1">
-                  <p className="text-gray-800 text-2xl leading-relaxed" style={{fontWeight: 750}}>{q.question}</p>
+                  <p className="text-gray-800 text-lg sm:text-2xl leading-relaxed" style={{fontWeight: 750}}>{q.question}</p>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hov
                 return (
                   <div
                     key={index}
-                    className={`relative rounded-lg p-4 transition-all duration-200 ${
+                    className={`relative rounded-lg p-3 sm:p-4 transition-all duration-200 ${
                       isCorrect
                         ? 'bg-green-50 border-2 border-green-500 shadow-sm'
                         : 'bg-gray-50 border border-gray-200'
@@ -113,14 +113,14 @@ className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hov
                   >
                     <div className="flex items-start space-x-3">
                       <div
-                        className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center ${
+                        className={`flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center text-xs sm:text-sm ${
                           isCorrect
                             ? 'bg-green-500 text-white'
                             : 'bg-white border-2 border-gray-300'
                         }`}
                       >
                         {isCorrect ? (
-                          <Check className="w-4 h-4" />
+                          <Check className="w-3 h-3 sm:w-4 sm:h-4" />
                         ) : (
                           <span className="text-xs text-gray-500">
                             {String.fromCharCode(65 + index)}
@@ -130,14 +130,14 @@ className="w-full text-left p-4 rounded-lg border border-blue-200 bg-blue-50 hov
                       <p
                         className={`flex-1 ${
                           isCorrect ? 'text-green-900' : 'text-gray-700'
-                        }`}
+                        } text-sm sm:text-base`}
                       >
                         {answer}
                       </p>
                     </div>
                     {isCorrect && (
                       <div className="absolute -top-3 right-0 z-10">
-                        <span className="inline-flex items-center px-1.5 py-0 rounded text-xs bg-green-100 text-green-700 border border-green-300 whitespace-nowrap shadow-sm">
+                        <span className="inline-flex items-center px-1 py-0 rounded text-xs sm:px-1.5 bg-green-100 text-green-700 border border-green-300 whitespace-nowrap shadow-sm">
                           ✓ Đáp án đúng
                         </span>
                       </div>
