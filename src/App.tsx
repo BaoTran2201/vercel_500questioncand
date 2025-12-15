@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { HomePage } from './components/HomePage';
 import { StudyMode } from './components/StudyMode';
 import { TestMode } from './components/TestMode';
-import { Home, BookOpen, FileCheck } from 'lucide-react';
+import { Home, BookOpen, FileCheck, LogOut } from 'lucide-react';
 import miniLogo from './assets/logo/mini_logo.png';
 
 type Mode = 'home' | 'study' | 'test';
@@ -10,6 +11,13 @@ type Mode = 'home' | 'study' | 'test';
 export default function App() {
   const [mode, setMode] = useState<Mode>('home');
   const [isAppHeaderCompact, setIsAppHeaderCompact] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.removeItem('isAuthenticated');
+    setMode('home');
+    navigate('/');
+  };
 
   const handleAppHeaderCompactChange = (isCompact: boolean) => {
     setIsAppHeaderCompact(isCompact);
@@ -42,20 +50,23 @@ export default function App() {
               )}
             </div>
             
-            {/* Navigation Buttons */}
-            <div className={`flex gap-1 transition-all duration-200 ${
-              isAppHeaderCompact ? 'gap-1' : 'space-x-2'
+            {/* Navigation + Logout */}
+            <div className={`flex items-center gap-2 transition-all duration-200 ${
+              isAppHeaderCompact ? 'gap-1.5' : 'space-x-2'
             }`}>
+              <div className={`flex gap-1 transition-all duration-200 ${
+                isAppHeaderCompact ? 'gap-1' : 'space-x-2'
+              }`}>
               <button
                 onClick={() => setMode('home')}
                 className={`flex items-center space-x-2 rounded-lg transition-all duration-200 ${
                   mode === 'home'
                     ? 'bg-green-500 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                } ${isAppHeaderCompact ? 'px-2 py-1.5' : 'px-4 py-2'}`}
+                } ${isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'}`}
                 title="Trang Chủ"
               >
-                <Home className={`${isAppHeaderCompact ? 'w-4 h-4' : 'w-5 h-5'}`} />
+                <Home className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
                 {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Trang Chủ</span>}
               </button>
 
@@ -65,10 +76,10 @@ export default function App() {
                   mode === 'study'
                     ? 'bg-green-500 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                } ${isAppHeaderCompact ? 'px-2 py-1.5' : 'px-4 py-2'}`}
+                } ${isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'}`}
                 title="Học tập"
               >
-                <BookOpen className={`${isAppHeaderCompact ? 'w-4 h-4' : 'w-5 h-5'}`} />
+                <BookOpen className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
                 {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Học tập</span>}
               </button>
               
@@ -78,11 +89,23 @@ export default function App() {
                   mode === 'test'
                     ? 'bg-green-500 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                } ${isAppHeaderCompact ? 'px-2 py-1.5' : 'px-4 py-2'}`}
+                } ${isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'}`}
                 title="Kiểm tra"
               >
-                <FileCheck className={`${isAppHeaderCompact ? 'w-4 h-4' : 'w-5 h-5'}`} />
+                <FileCheck className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
                 {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Kiểm tra</span>}
+              </button>
+              </div>
+
+              <button
+                onClick={handleLogout}
+                className={`flex items-center space-x-2 rounded-lg transition-all duration-200 bg-gray-100 text-gray-700 hover:bg-gray-200 ${
+                  isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'
+                }`}
+                title="Đăng xuất"
+              >
+                <LogOut className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
+                {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Đăng xuất</span>}
               </button>
             </div>
           </div>

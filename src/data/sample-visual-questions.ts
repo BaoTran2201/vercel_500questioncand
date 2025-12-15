@@ -1,17 +1,7 @@
-/**
- * Sample Visual Questions with Traffic Sign Images
- * 
- * This file contains example questions with images to demonstrate
- * the image support system. These can be used for testing or as
- * templates for creating your own visual questions.
- */
 
 import type { Question } from './question-types';
 
-/**
- * Sample questions with real traffic sign images from Unsplash
- * IDs: 501-505 (to avoid conflicts with existing questions)
- */
+
 export const sampleVisualQuestions: Question[] = [
   
 ];
