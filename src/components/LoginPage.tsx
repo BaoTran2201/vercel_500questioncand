@@ -34,22 +34,41 @@ export default function LoginPage() {
         <div className="bg-white shadow-lg rounded-xl border border-green-100 p-6 sm:p-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg w-12 h-12 flex items-center justify-center overflow-hidden">
-              <img src={miniLogo} alt="Logo" className="h-full w-auto max-w-full object-contain" />
+              <img
+                src={miniLogo}
+                alt="Logo"
+                className="h-full w-auto max-w-full object-contain"
+              />
             </div>
             <div className="leading-tight text-gray-700">
-              <div className="text-2xl font-bold " style={{ color: "#b91c1c" }}>  <h1 className="text-sm font-semibold font-bold">TRUNG TÂM DN&ĐTLX</h1> 
-                
+              <div className="text-2xl font-bold " style={{ color: "#b91c1c" }}>
+                {" "}
+                <h1 className="text-sm font-semibold font-bold">
+                  TRUNG TÂM DN&ĐTLX
+                </h1>
               </div>
-              <div > <p className="text-xs text-gray-400">TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1</p> </div>
+              <div>
+                {" "}
+                <p className="text-xs text-gray-400">
+                  TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1
+                </p>{" "}
+              </div>
             </div>
           </div>
 
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Đăng nhập</h2>
-          <p className="text-sm text-gray-500 mb-6">Website học & thi bằng lái</p>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Đăng nhập
+          </h2>
+          <p className="text-sm text-gray-500 mb-6">
+            Website học & thi bằng lái
+          </p>
 
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-700" htmlFor="username">
+              <label
+                className="text-sm font-medium text-gray-700"
+                htmlFor="username"
+              >
                 Tên đăng nhập
               </label>
               <input
@@ -65,7 +84,10 @@ export default function LoginPage() {
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-700" htmlFor="password">
+              <label
+                className="text-sm font-medium text-gray-700"
+                htmlFor="password"
+              >
                 Mật khẩu
               </label>
               <input
