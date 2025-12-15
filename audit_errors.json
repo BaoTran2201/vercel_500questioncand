@@ -1,0 +1,1664 @@
+[
+  {
+    "id": 1,
+    "type": "MISSING",
+    "message": "Câu 1 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 2,
+    "type": "MISSING",
+    "message": "Câu 2 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 3,
+    "type": "MISSING",
+    "message": "Câu 3 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 4,
+    "type": "MISSING",
+    "message": "Câu 4 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 5,
+    "type": "MISSING",
+    "message": "Câu 5 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 29,
+    "type": "MISSING",
+    "message": "Câu 29 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 133,
+    "type": "MISSING",
+    "message": "Câu 133 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 134,
+    "type": "MISSING",
+    "message": "Câu 134 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 135,
+    "type": "MISSING",
+    "message": "Câu 135 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 136,
+    "type": "MISSING",
+    "message": "Câu 136 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 137,
+    "type": "MISSING",
+    "message": "Câu 137 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 138,
+    "type": "MISSING",
+    "message": "Câu 138 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 139,
+    "type": "MISSING",
+    "message": "Câu 139 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 140,
+    "type": "MISSING",
+    "message": "Câu 140 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 141,
+    "type": "MISSING",
+    "message": "Câu 141 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 142,
+    "type": "MISSING",
+    "message": "Câu 142 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 143,
+    "type": "MISSING",
+    "message": "Câu 143 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 144,
+    "type": "MISSING",
+    "message": "Câu 144 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 145,
+    "type": "MISSING",
+    "message": "Câu 145 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 146,
+    "type": "MISSING",
+    "message": "Câu 146 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 147,
+    "type": "MISSING",
+    "message": "Câu 147 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 148,
+    "type": "MISSING",
+    "message": "Câu 148 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 149,
+    "type": "MISSING",
+    "message": "Câu 149 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 150,
+    "type": "MISSING",
+    "message": "Câu 150 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 151,
+    "type": "MISSING",
+    "message": "Câu 151 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 153,
+    "type": "MISSING",
+    "message": "Câu 153 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 154,
+    "type": "MISSING",
+    "message": "Câu 154 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 162,
+    "type": "MISSING",
+    "message": "Câu 162 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 163,
+    "type": "MISSING",
+    "message": "Câu 163 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 177,
+    "type": "MISSING",
+    "message": "Câu 177 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 186,
+    "type": "MISSING",
+    "message": "Câu 186 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 199,
+    "type": "MISSING",
+    "message": "Câu 199 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 214,
+    "type": "MISSING",
+    "message": "Câu 214 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 229,
+    "type": "MISSING",
+    "message": "Câu 229 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 238,
+    "type": "MISSING",
+    "message": "Câu 238 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 464,
+    "type": "MISSING",
+    "message": "Câu 464 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 465,
+    "type": "MISSING",
+    "message": "Câu 465 có trong .docx nhưng không có trong cand-questions.ts"
+  },
+  {
+    "id": 58,
+    "type": "WRONG_ANSWER",
+    "docx_answer": null,
+    "ts_answer": 3,
+    "message": "Câu 58: Đáp án trong .docx là None, trong .ts là 3"
+  },
+  {
+    "id": 64,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 64: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 69,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 69: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 75,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 75: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 95,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 95: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 103,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 103: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 108,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 108: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 110,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 110: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 111,
+    "type": "WRONG_ANSWER",
+    "docx_answer": null,
+    "ts_answer": 0,
+    "message": "Câu 111: Đáp án trong .docx là None, trong .ts là 0"
+  },
+  {
+    "id": 116,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 3,
+    "message": "Câu 116: Đáp án trong .docx là 1, trong .ts là 3"
+  },
+  {
+    "id": 117,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 117: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 127,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 127: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 128,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 128: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 130,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 130: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 152,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 152: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 155,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 155: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 156,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 156: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 157,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 157: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 159,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 159: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 160,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 160: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 161,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 161: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 166,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 166: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 168,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 168: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 169,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 169: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 170,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 170: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 171,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 171: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 172,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 172: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 173,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 173: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 175,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 175: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 176,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 176: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 178,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 178: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 179,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 179: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 182,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 182: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 183,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 183: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 184,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 184: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 185,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 185: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 189,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 3,
+    "message": "Câu 189: Đáp án trong .docx là 2, trong .ts là 3"
+  },
+  {
+    "id": 192,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 3,
+    "message": "Câu 192: Đáp án trong .docx là 2, trong .ts là 3"
+  },
+  {
+    "id": 193,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 193: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 195,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 195: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 196,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 196: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 198,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 198: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 200,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 200: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 204,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 204: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 207,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 207: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 208,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 208: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 211,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 211: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 213,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 213: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 216,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 216: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 217,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 217: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 218,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 218: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 219,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 219: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 220,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 220: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 221,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 221: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 222,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 222: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 223,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 223: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 224,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 224: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 225,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 225: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 227,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 227: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 228,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 228: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 230,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 230: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 234,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 234: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 236,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 236: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 237,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 237: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 240,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 240: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 273,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 273: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 279,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 279: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 295,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 295: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 296,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 296: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 299,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 299: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 300,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 300: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 301,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 3,
+    "message": "Câu 301: Đáp án trong .docx là 2, trong .ts là 3"
+  },
+  {
+    "id": 303,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 303: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 304,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 304: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 306,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 306: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 308,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 308: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 310,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 3,
+    "message": "Câu 310: Đáp án trong .docx là 1, trong .ts là 3"
+  },
+  {
+    "id": 311,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 311: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 312,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 312: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 314,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 314: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 315,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 315: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 316,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 316: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 318,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 318: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 321,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 321: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 324,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 324: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 325,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 325: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 326,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 326: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 328,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 328: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 330,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 330: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 331,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 331: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 332,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 332: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 333,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 333: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 334,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 1,
+    "message": "Câu 334: Đáp án trong .docx là 3, trong .ts là 1"
+  },
+  {
+    "id": 335,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 3,
+    "message": "Câu 335: Đáp án trong .docx là 2, trong .ts là 3"
+  },
+  {
+    "id": 336,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 3,
+    "message": "Câu 336: Đáp án trong .docx là 1, trong .ts là 3"
+  },
+  {
+    "id": 339,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 339: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 341,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 3,
+    "message": "Câu 341: Đáp án trong .docx là 2, trong .ts là 3"
+  },
+  {
+    "id": 342,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 342: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 344,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 344: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 345,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 345: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 346,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 346: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 348,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 348: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 352,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 352: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 353,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 353: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 357,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 357: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 358,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 358: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 359,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 359: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 360,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 360: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 361,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 1,
+    "message": "Câu 361: Đáp án trong .docx là 3, trong .ts là 1"
+  },
+  {
+    "id": 362,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 362: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 363,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 363: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 364,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 364: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 365,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 365: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 366,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 366: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 367,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 367: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 368,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 368: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 369,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 369: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 371,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 371: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 372,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 372: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 373,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 373: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 376,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 376: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 377,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 377: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 378,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 378: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 380,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 380: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 381,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 381: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 382,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 382: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 384,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 384: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 385,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 385: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 386,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 386: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 387,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 387: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 388,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 388: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 389,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 389: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 392,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 392: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 393,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 393: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 396,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 396: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 398,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 398: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 399,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 399: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 401,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 401: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 402,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 402: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 403,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 403: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 404,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 404: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 405,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 405: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 406,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 406: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 407,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 407: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 408,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 408: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 409,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 409: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 410,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 410: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 411,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 411: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 412,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 412: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 413,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 413: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 414,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 414: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 418,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 418: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 420,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 420: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 422,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 422: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 423,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 423: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 426,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 426: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 427,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 427: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 428,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 428: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 429,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 429: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 430,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 2,
+    "message": "Câu 430: Đáp án trong .docx là 0, trong .ts là 2"
+  },
+  {
+    "id": 431,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 1,
+    "message": "Câu 431: Đáp án trong .docx là 3, trong .ts là 1"
+  },
+  {
+    "id": 433,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 3,
+    "message": "Câu 433: Đáp án trong .docx là 1, trong .ts là 3"
+  },
+  {
+    "id": 434,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 434: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 435,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 435: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 439,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 439: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 440,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 440: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 441,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 441: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 442,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 442: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 444,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 444: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 445,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 445: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 447,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 447: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 448,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 448: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 449,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 449: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 451,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 451: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 453,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 453: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 454,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 1,
+    "message": "Câu 454: Đáp án trong .docx là 3, trong .ts là 1"
+  },
+  {
+    "id": 455,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 455: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 457,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 457: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 458,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 458: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 459,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 459: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 460,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 460: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 461,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 461: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 462,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 462: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 463,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 463: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 466,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 3,
+    "message": "Câu 466: Đáp án trong .docx là 1, trong .ts là 3"
+  },
+  {
+    "id": 467,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 467: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 468,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 468: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 469,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 3,
+    "message": "Câu 469: Đáp án trong .docx là 1, trong .ts là 3"
+  },
+  {
+    "id": 470,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 470: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 472,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 472: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 473,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 473: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 474,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 474: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 475,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 475: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 476,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 476: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 477,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 477: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 479,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 1,
+    "message": "Câu 479: Đáp án trong .docx là 2, trong .ts là 1"
+  },
+  {
+    "id": 480,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 2,
+    "message": "Câu 480: Đáp án trong .docx là 3, trong .ts là 2"
+  },
+  {
+    "id": 481,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 481: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 482,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 482: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 483,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 483: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 484,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 2,
+    "ts_answer": 0,
+    "message": "Câu 484: Đáp án trong .docx là 2, trong .ts là 0"
+  },
+  {
+    "id": 485,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 485: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 486,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 2,
+    "message": "Câu 486: Đáp án trong .docx là 1, trong .ts là 2"
+  },
+  {
+    "id": 488,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 488: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 489,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 1,
+    "message": "Câu 489: Đáp án trong .docx là 0, trong .ts là 1"
+  },
+  {
+    "id": 490,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 1,
+    "ts_answer": 0,
+    "message": "Câu 490: Đáp án trong .docx là 1, trong .ts là 0"
+  },
+  {
+    "id": 491,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 491: Đáp án trong .docx là 3, trong .ts là 0"
+  },
+  {
+    "id": 492,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 1,
+    "message": "Câu 492: Đáp án trong .docx là 3, trong .ts là 1"
+  },
+  {
+    "id": 495,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 495: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 496,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 0,
+    "ts_answer": 3,
+    "message": "Câu 496: Đáp án trong .docx là 0, trong .ts là 3"
+  },
+  {
+    "id": 498,
+    "type": "WRONG_ANSWER",
+    "docx_answer": 3,
+    "ts_answer": 0,
+    "message": "Câu 498: Đáp án trong .docx là 3, trong .ts là 0"
+  }
+]
