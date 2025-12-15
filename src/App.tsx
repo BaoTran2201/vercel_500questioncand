@@ -5,18 +5,29 @@ import { StudyMode } from './components/StudyMode';
 import { TestMode } from './components/TestMode';
 import { Home, BookOpen, FileCheck, LogOut } from 'lucide-react';
 import miniLogo from './assets/logo/mini_logo.png';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import DialogActions from '@mui/material/DialogActions';
+import Button from '@mui/material/Button';
 
 type Mode = 'home' | 'study' | 'test';
 
 export default function App() {
   const [mode, setMode] = useState<Mode>('home');
   const [isAppHeaderCompact, setIsAppHeaderCompact] = useState(false);
+  const [showConfirmLogout, setShowConfirmLogout] = useState(false);
   const navigate = useNavigate();
 
   const handleLogout = () => {
     localStorage.removeItem('isAuthenticated');
+    setShowConfirmLogout(false);
     setMode('home');
     navigate('/');
+  };
+
+  const handleLogoutClick = () => {
+    setShowConfirmLogout(true);
   };
 
   const handleAppHeaderCompactChange = (isCompact: boolean) => {
@@ -44,18 +55,15 @@ export default function App() {
               </div>
               {!isAppHeaderCompact && (
                 <div>
-                  <h1 className="text-green-800 text-sm font-semibold ">TRUNG TÂM DN&ĐTLX</h1>
-                  <p className="text-xs text-gray-400">TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1</p>
-                </div>
-              )}
-            </div>
-            
-            {/* Navigation + Logout */}
+                  <h1 style={{ color: "#b91c1c" }}><h1 className='text-sm font-semibold font-bold'>TRUNG TÂM DN&ĐTLX</h1></h1>
+                    {/* <h1 className="text-green-800 text-sm font-extrabold">TRUNG TÂM DN&ĐTLX</h1> */}
+                  <p className="text-xs text-gray-400">TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1</p> 
+                           {/* Navigation + Logout */}
             <div className={`flex items-center gap-2 transition-all duration-200 ${
-              isAppHeaderCompact ? 'gap-1.5' : 'space-x-2'
+              isAppHeaderCompact ? 'gap-2' : 'space-x-3'
             }`}>
               <div className={`flex gap-1 transition-all duration-200 ${
-                isAppHeaderCompact ? 'gap-1' : 'space-x-2'
+                isAppHeaderCompact ? 'gap-1.5' : 'space-x-3'
               }`}>
               <button
                 onClick={() => setMode('home')}
@@ -63,10 +71,10 @@ export default function App() {
                   mode === 'home'
                     ? 'bg-green-500 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                } ${isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'}`}
+                } ${isAppHeaderCompact ? 'px-2.5 py-2' : 'px-4 py-2.5'}`}
                 title="Trang Chủ"
               >
-                <Home className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
+                <Home className={`${isAppHeaderCompact ? 'w-4 h-4' : 'w-5 h-5'}`} />
                 {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Trang Chủ</span>}
               </button>
 
@@ -76,10 +84,10 @@ export default function App() {
                   mode === 'study'
                     ? 'bg-green-500 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                } ${isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'}`}
+                } ${isAppHeaderCompact ? 'px-2.5 py-2' : 'px-4 py-2.5'}`}
                 title="Học tập"
               >
-                <BookOpen className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
+                <BookOpen className={`${isAppHeaderCompact ? 'w-4 h-4' : 'w-5 h-5'}`} />
                 {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Học tập</span>}
               </button>
               
@@ -89,22 +97,41 @@ export default function App() {
                   mode === 'test'
                     ? 'bg-green-500 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                } ${isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'}`}
+                } ${isAppHeaderCompact ? 'px-2.5 py-2' : 'px-4 py-2.5'}`}
                 title="Kiểm tra"
               >
-                <FileCheck className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
+                <FileCheck className={`${isAppHeaderCompact ? 'w-4 h-4' : 'w-5 h-5'}`} />
                 {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Kiểm tra</span>}
               </button>
               </div>
 
+            </div>              
+                </div>
+              )}
+
+
+        
+
+
+            </div>
+            
+            {/* Navigation + Logout */}
+            <div className={`flex items-center gap-2 transition-all duration-200 ${
+              isAppHeaderCompact ? 'gap-2' : 'space-x-3'
+            }`}>
+              <div className={`flex gap-1 transition-all duration-200 ${
+                isAppHeaderCompact ? 'gap-1.5' : 'space-x-3'
+              }`}>            
+              </div>
+
               <button
-                onClick={handleLogout}
+                onClick={handleLogoutClick}
                 className={`flex items-center space-x-2 rounded-lg transition-all duration-200 bg-gray-100 text-gray-700 hover:bg-gray-200 ${
-                  isAppHeaderCompact ? 'px-1.5 py-1' : 'px-3 py-1.5'
+                  isAppHeaderCompact ? 'px-2.5 py-2' : 'px-4 py-2.5'
                 }`}
                 title="Đăng xuất"
               >
-                <LogOut className={`${isAppHeaderCompact ? 'w-3 h-3' : 'w-4 h-4'}`} />
+                <LogOut className={`${isAppHeaderCompact ? 'w-4 h-4' : 'w-5 h-5'}`} />
                 {!isAppHeaderCompact && <span className="hidden sm:inline text-sm">Đăng xuất</span>}
               </button>
             </div>
@@ -118,6 +145,27 @@ export default function App() {
         {mode === 'study' && <StudyMode />}
         {mode === 'test' && <TestMode onAppHeaderCompactChange={handleAppHeaderCompactChange} appHeaderCompact={isAppHeaderCompact} />}
       </main>
+
+      {/* Confirm Logout Dialog */}
+      <Dialog
+        open={showConfirmLogout}
+        onClose={() => setShowConfirmLogout(false)}
+        maxWidth="xs"
+        fullWidth
+      >
+        <DialogTitle>Xác nhận đăng xuất</DialogTitle>
+        <DialogContent>
+          Bạn có chắc chắn muốn đăng xuất không?
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setShowConfirmLogout(false)}>
+            Hủy
+          </Button>
+          <Button onClick={handleLogout} variant="contained" color="success">
+            Đăng xuất
+          </Button>
+        </DialogActions>
+      </Dialog>
     </div>
   );
 }

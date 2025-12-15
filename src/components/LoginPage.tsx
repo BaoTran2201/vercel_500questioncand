@@ -1,6 +1,7 @@
 import { FormEvent, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { compareSync } from "bcryptjs";
+import Button from "@mui/material/Button";
 import { accounts } from "../data/account";
 import miniLogo from "../assets/logo/mini_logo.png";
 
@@ -35,9 +36,11 @@ export default function LoginPage() {
             <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg w-12 h-12 flex items-center justify-center overflow-hidden">
               <img src={miniLogo} alt="Logo" className="h-full w-auto max-w-full object-contain" />
             </div>
-            <div className="text-sm text-gray-700 leading-tight">
-              <p className="font-semibold text-green-800">TRUNG TÂM DN&ĐTLX</p>
-              <p className="text-gray-500">TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1</p>
+            <div className="leading-tight text-gray-700">
+              <div className="text-2xl font-bold " style={{ color: "#b91c1c" }}>  <h1 className="text-sm font-semibold font-bold">TRUNG TÂM DN&ĐTLX</h1> 
+                
+              </div>
+              <div > <p className="text-xs text-gray-400">TRƯỜNG CAO ĐẲNG AN NINH NHÂN DÂN 1</p> </div>
             </div>
           </div>
 
@@ -83,12 +86,21 @@ export default function LoginPage() {
               </div>
             )}
 
-            <button
+            <Button
               type="submit"
-              className="w-full rounded-lg bg-green-600 text-white font-medium px-4 py-2.5 shadow-sm hover:bg-green-700 transition focus:outline-none focus:ring-2 focus:ring-green-300"
+              variant="contained"
+              color="success"
+              fullWidth
+              size="large"
+              sx={{
+                textTransform: "none",
+                fontWeight: 600,
+                borderRadius: 2,
+                py: 1.25,
+              }}
             >
               Đăng nhập
-            </button>
+            </Button>
           </form>
         </div>
       </div>

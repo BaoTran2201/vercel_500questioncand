@@ -4,6 +4,12 @@ import { candQuestions250 } from '../data/cand-questions250';
 import { candQuestions } from '../data/cand-questions';
 import { Check, X, RotateCcw, Award } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Chip from '@mui/material/Chip';
+import LinearProgress from '@mui/material/LinearProgress';
 
 // Function to shuffle array
 function shuffleArray<T>(array: T[]): T[] {
@@ -390,72 +396,101 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
   return (
     <div className="space-y-6 pb-20 pt-16">
       {/* Header - Sticky with compact mode (positioned below AppHeader) */}
-      <div style={{ top: `${stickyTopValue}px` }} className={`sticky z-40 bg-white shadow-lg border-b border-green-100 rounded-lg transition-all duration-200 ${
-        isHeaderCompact ? 'py-2' : 'py-4'
-      }`}>
-        <div className={`transition-all duration-200 ${isHeaderCompact ? 'px-3' : 'px-6'}`}>
-          <div className="flex items-center justify-between flex-wrap gap-2">
-            <div className="min-w-0">
-              <h2 className={`text-green-800 transition-all duration-200 font-semibold ${
-                isHeaderCompact ? 'text-sm' : 'text-xl'
-              }`}> <h2 className="text-green-800">Thi thử</h2></h2>
-              <p className={`text-gray-600 transition-all duration-200 ${
-                isHeaderCompact ? 'hidden' : 'text-xs'
-              }`}>
-               <p className="text-gray-600">Đã trả lời {answered} trên {testQuestions.length} câu hỏi</p> 
-              </p>
-            </div>
-            <div className="flex items-center gap-2 flex-wrap">
-              {/* Timer Display */}
-              <div className={`flex items-center space-x-1 rounded-lg border transition-all duration-200 ${
-                timeLeft <= 300 
-                  ? 'bg-red-50 border-red-200' 
-                  : timeLeft <= 600
-                  ? 'bg-yellow-50 border-yellow-200'
-                  : 'bg-green-50 border-green-200'
-              } ${isHeaderCompact ? 'px-2 py-1' : 'px-3 py-1.5'}`}>
-                <span className={`transition-all duration-200 font-medium ${
-                  timeLeft <= 300 
-                    ? 'text-red-700' 
-                    : timeLeft <= 600
-                    ? 'text-yellow-700'
-                    : 'text-green-700'
-                } ${isHeaderCompact ? 'text-xs' : 'text-sm'}`}>
-                  {isHeaderCompact ? '⏳' : '⏱️'} {formatTime(timeLeft)}
-                </span>
-              </div>
-              
-              <div className={`bg-green-50 rounded-lg border border-green-200 transition-all duration-200 ${
-                isHeaderCompact ? 'px-2 py-1' : 'px-3 py-1.5'
-              }`}>
-                <span className={`text-green-700 font-medium transition-all duration-200 ${
-                  isHeaderCompact ? 'text-xs' : 'text-sm'
-                }`}>
-                  {answered}/{testQuestions.length}
-                </span>
-              </div>
-            </div>
-          </div>
+      <AppBar
+        position="sticky"
+        elevation={2}
+        sx={{
+          top: `${stickyTopValue}px`,
+          zIndex: 40,
+          backgroundColor: '#fff',
+          borderRadius: 2,
+          transition: 'all 0.2s',
+        }}
+      >
+        <Toolbar
+          variant={isHeaderCompact ? 'dense' : 'regular'}
+          sx={{
+            px: { xs: 1.5, sm: 2, md: 3 },
+            py: isHeaderCompact ? 0.5 : 1,
+            minHeight: isHeaderCompact ? 48 : 64,
+            transition: 'all 0.2s',
+          }}
+        >
+          <Box sx={{ flexGrow: 1, minWidth: 0 }}>
+            <Typography
+              variant={isHeaderCompact ? 'subtitle2' : 'h6'}
+              sx={{
+                color: '#065f46',
+                fontWeight: 600,
+                fontSize: isHeaderCompact ? '0.875rem' : { xs: '1rem', sm: '1.25rem' },
+                transition: 'all 0.2s',
+              }}
+            >
+              Thi thử
+            </Typography>
+            {!isHeaderCompact && (
+              <Typography
+                variant="caption"
+                sx={{
+                  color: '#6b7280',
+                  display: { xs: 'none', sm: 'block' },
+                  fontSize: '0.75rem',
+                }}
+              >
+                Đã trả lời {answered} trên {testQuestions.length} câu hỏi
+              </Typography>
+            )}
+          </Box>
 
-          {/* Time Progress Bar */}
-          <div className={`w-full rounded-full overflow-hidden transition-all duration-200 ${
-            isHeaderCompact ? 'h-1 mt-2' : 'h-2 mt-3'
-          }`} style={{ backgroundColor: '#e5e7eb' }}>
-            <div
-              className={`h-full rounded-full transition-all duration-200 ${
-                timeLeft <= 300 
-                  ? 'bg-red-500' 
-                  : timeLeft <= 600
-                  ? 'bg-yellow-500'
-                  : 'bg-green-500'
-              }`}
-              style={{
-                width: `${timeLimit ? (timeLeft / timeLimit) * 100 : 0}%`,
+          <Box sx={{ display: 'flex', gap: { xs: 0.5, sm: 1 }, alignItems: 'center', flexWrap: 'nowrap' }}>
+            {/* Timer Chip */}
+            <Chip
+              label={`${isHeaderCompact ? '⏳' : '⏱️'} ${formatTime(timeLeft)}`}
+              size={isHeaderCompact ? 'small' : 'medium'}
+              sx={{
+                backgroundColor: timeLeft <= 300 ? '#fee' : timeLeft <= 600 ? '#fef3c7' : '#d1fae5',
+                color: timeLeft <= 300 ? '#b91c1c' : timeLeft <= 600 ? '#92400e' : '#065f46',
+                fontWeight: 500,
+                fontSize: isHeaderCompact ? '0.7rem' : { xs: '0.75rem', sm: '0.875rem' },
+                height: isHeaderCompact ? 24 : { xs: 28, sm: 32 },
+                '& .MuiChip-label': {
+                  px: { xs: 1, sm: 1.5 },
+                },
               }}
             />
-          </div>
-        </div>
-      </div>
+
+            {/* Answer Count Chip */}
+            <Chip
+              label={`${answered}/${testQuestions.length}`}
+              size={isHeaderCompact ? 'small' : 'medium'}
+              sx={{
+                backgroundColor: '#d1fae5',
+                color: '#065f46',
+                fontWeight: 500,
+                fontSize: isHeaderCompact ? '0.7rem' : { xs: '0.75rem', sm: '0.875rem' },
+                height: isHeaderCompact ? 24 : { xs: 28, sm: 32 },
+                '& .MuiChip-label': {
+                  px: { xs: 1, sm: 1.5 },
+                },
+              }}
+            />
+          </Box>
+        </Toolbar>
+
+        {/* Time Progress Bar */}
+        <LinearProgress
+          variant="determinate"
+          value={timeLimit ? (timeLeft / timeLimit) * 100 : 0}
+          sx={{
+            height: isHeaderCompact ? 3 : 4,
+            backgroundColor: '#e5e7eb',
+            '& .MuiLinearProgress-bar': {
+              backgroundColor: timeLeft <= 300 ? '#ef4444' : timeLeft <= 600 ? '#eab308' : '#22c55e',
+              transition: 'all 0.2s',
+            },
+          }}
+        />
+      </AppBar>
 
       {/* Questions List */}
       <div className="space-y-4 sm:space-y-6 px-2 sm:px-4 mt-6">
@@ -493,7 +528,7 @@ export function TestMode({ onAppHeaderCompactChange, appHeaderCompact = false }:
               )}
 
               {/* Answers */}
-              <div className="p-3 sm:p-6 space-y-2 sm:space-y-3">
+              <div className="p-3 sm:p-6 space-y-3">
                 {question.answers.map((answer: string, index: number) => {
                   const isSelected = selectedIndex === index;
                   return (

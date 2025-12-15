@@ -1519,7 +1519,7 @@ export const candQuestions250: Question[] = [
     question: "Biển này có ý nghĩa gì?",
     answers: [
       "Chỉ dẫn chướng ngại vật phía trước để cảnh báo phía trước có sự cản trở lưu thông bình thường (nằm bên trong phần xe chạy hay ngay sát phần đường xe chạy) và chỉ dẫn hướng đi qua đó cần đặt biển.",
-      "Chỉ dẫn hướng rẽ để nhắc người điều khiển phương tiện chuẩn bị đổi hướng đi khi sắp vào đường cong nguy hiểm, có bán kính cong nhỏ. PHẦN III. KỸ THUẬT LÁI XE"
+      "Chỉ dẫn hướng rẽ để nhắc người điều khiển phương tiện chuẩn bị đổi hướng đi khi sắp vào đường cong nguy hiểm, có bán kính cong nhỏ."
     ],
     correctAnswer: 1,
     image: "/images250/question_140.jpeg",
@@ -1761,7 +1761,7 @@ export const candQuestions250: Question[] = [
     question: "Khi điều khiển xe mô tô muốn rẽ phải, người lái xe phải xử lý như thế nào?",
     answers: [
       "Bật xi nhan báo rẽ phải, quan sát phía trước, phía sau bằng gương chiếu hậu (có thể quay đầu lại quan sát) thấy an toàn cho xe từ từ rẽ phải.",
-      "Bật xi nhan báo rẽ phải, quan sát an toàn trước và sau, chuyển ngay hướngcần rẽ."
+      "Bật xi nhan báo rẽ phải, quan sát an toàn trước và sau, chuyển ngay hướng cần rẽ."
     ],
     correctAnswer: 0,
   },
@@ -1771,7 +1771,7 @@ export const candQuestions250: Question[] = [
     question: "Khi điều khiển xe mô tô rẽ trái, người lái xe phải xử lý như thế nào?",
     answers: [
       "Bật xi nhan báo rẽ trái, quan sát phía trước, phía sau bằng gương chiếu hậu (có thể quay đầu lại quan sát) thấy an toàn cho xe từ từ rẽ trái.",
-      "Bật xi nhan báo rẽ trái, quan sát an toàn trước và sau, chuyển ngay hướngcần rẽ."
+      "Bật xi nhan báo rẽ trái, quan sát an toàn trước và sau, chuyển ngay hướng cần rẽ."
     ],
     correctAnswer: 0,
   },
@@ -2124,7 +2124,7 @@ export const candQuestions250: Question[] = [
       "Xe mô tô.",
       " Xe ô tô con và xe mô tô."
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     image: "/images250/question_195.jpeg",
   },
 
@@ -2157,10 +2157,12 @@ export const candQuestions250: Question[] = [
     id: 198,
     question: "Theo tín hiệu đèn, xe nào chấp hành đúng quy tắc giao thông?",
     answers: [
-      "Xe ô tô khách, xe mô tô. 3. Xe ô tô con, xe ô tô tải.",
-      "Xe ô tô tải, xe mô tô. 4. Tất cả các loại xe trên."
+      "Xe ô tô khách, xe mô tô. ",
+      " Xe ô tô con, xe ô tô tải.",
+      "Xe ô tô tải, xe mô tô. ",
+      "Tất cả các loại xe trên."
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     image: "/images250/question_198.jpeg",
   },
 
@@ -2317,8 +2319,10 @@ export const candQuestions250: Question[] = [
     id: 211,
     question: "Trong trường hợp này xe nào đỗ vi phạm quy tắc giao thông?",
     answers: [
-      "Xe ô tô tải. 3. Cả 3 xe.",
-      "Xe ô tô con và xe mô tô. 4. Xe ô tô con và xe ô tô tải."
+      "Xe ô tô tải. ",
+      " Cả 3 xe.",
+      "Xe ô tô con và xe mô tô.",
+      "Xe ô tô con và xe ô tô tải."
     ],
       image: "/images250/image250_211.png",
     correctAnswer: 0,

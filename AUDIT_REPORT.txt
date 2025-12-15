@@ -1,0 +1,57 @@
+﻿===============================================================================
+                    AUDIT REPORT: cand-questions.ts vs 500 câu hỏi CAND.docx
+===============================================================================
+
+OVERVIEW:
+---------
+Source File: 500 câu hỏi CAND.docx (source of truth)
+Target File: src/data/cand-questions.ts
+Date: 12/15/2025 11:30:23
+
+STATISTICS:
+-----------
+Total questions in .docx:           498
+Total questions in .ts:             463
+Missing questions:                   37
+Questions with wrong answers:       211
+Total issues found:                 248
+
+===============================================================================
+MISSING QUESTIONS (37 TOTAL)
+===============================================================================
+
+The following questions exist in the .docx source but are missing from .ts:
+
+
+
+These questions need to be added to cand-questions.ts from the .docx source.
+
+===============================================================================
+QUESTIONS WITH WRONG ANSWERS (211 TOTAL)
+===============================================================================
+
+Sample of incorrect answers (showing first 20):
+
+
+
+... and 191 more questions with wrong answers.
+
+See audit_errors.json for complete list.
+
+===============================================================================
+RECOMMENDATIONS:
+===============================================================================
+
+1. CRITICAL: Add missing 37 questions to cand-questions.ts
+   - Extract from audit_docx_questions.json
+   - Insert in correct position by ID
+
+2. HIGH: Fix 211 questions with wrong answers
+   - Use audit_errors.json for exact corrections
+   - Re-verify underline detection in .docx for questionable cases
+
+3. Note: Some questions show 'None' or empty correctAnswer in .docx
+   - May indicate parsing issue or missing underline formatting
+   - Recommend manual verification of these cases
+
+===============================================================================
