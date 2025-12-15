@@ -1,0 +1,1232 @@
+[
+  {
+    "id": 64,
+    "question": "Khi đỗ xe, người điều khiển phương tiện tham gia giao thông ",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 69,
+    "question": "Trên đường phố, người điều khiển phương tiện giao thông đườn",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 75,
+    "question": "Tại nơi đường giao nhau giữa đường không ưu tiên với đường ư",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 95,
+    "question": "Xe cơ giới dưới đây, xe nào là xe quá khổ giới hạn?",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 103,
+    "question": "Người có giấy phép lái xe hạng C1E được điều khiển loại xe n",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 108,
+    "question": "Theo Luật TTATGTĐB, người đủ bao nhiêu tuổi trở lên được cấp",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 110,
+    "question": "Theo Luật TTATGTĐB, người đủ bao nhiêu tuổi trở lên được cấp",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 116,
+    "question": "Trong khu vực đông dân cư, tốc độ tối đa cho phép đối với xe",
+    "old_answer": 3,
+    "new_answer": 1
+  },
+  {
+    "id": 117,
+    "question": "Trong khu vực đông dân cư, tốc độ tối đa cho phép đối với xe",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 127,
+    "question": "Khi tham gia giao thông trên đường bộ, mặt đường khô ráo,",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 128,
+    "question": "Khi tham gia giao thông trên đường bộ, mặt đường khô ráo,",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 130,
+    "question": "Niên hạn sử dụng của xe ô tô chở người trên 9 chỗ ngồi, trừ ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 152,
+    "question": "Biển nào cấm người đi bộ?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 155,
+    "question": "Biển nào cấm xe ô tô rẽ trái nhưng được phép quay đầu?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 156,
+    "question": "Biển nào báo hiệu hết tất cả các lệnh cấm?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 157,
+    "question": "Biển nào báo hiệu hết hạn chế tốc độ tối thiểu?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 159,
+    "question": "Biển nào báo hiệu hết hạn chế tốc độ tối đa cho phép theo bi",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 160,
+    "question": "Gặp biển nào người lái xe không được đỗ xe ngày lẻ?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 161,
+    "question": "Biển nào báo cấm xe công nông và các loại xe tương tự?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 166,
+    "question": "Khi gặp biển nào người lái xe ô tô không được phép rẽ trái v",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 168,
+    "question": "Biển nào cấm máy kéo?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 169,
+    "question": "Biển nào báo hiệu chú ý chướng ngại vật?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 170,
+    "question": "Biển nào báo hiệu đoạn đường hay xảy ra tai nạn?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 171,
+    "question": "Biển nào báo hiệu giao nhau với đường hai chiều?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 172,
+    "question": "Biển nào báo hiệu đường hầm?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 173,
+    "question": "Biển nào báo hiệu đường đôi?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 175,
+    "question": "Biển nào báo hiệu giao nhau với đường không ưu tiên?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 178,
+    "question": "Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đi",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 179,
+    "question": "Biển nào báo trước sắp đến một đoạn đường bị thu hẹp đột ngộ",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 182,
+    "question": "Biển nào báo hiệu đường bộ giao nhau với đường sắt không có ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 183,
+    "question": "Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 184,
+    "question": "Biển nào báo hiệu giao nhau có tín hiệu đèn?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 189,
+    "question": "Biển nào cảnh báo chỗ ngoặt nguy hiểm liên tiếp?",
+    "old_answer": 3,
+    "new_answer": 2
+  },
+  {
+    "id": 192,
+    "question": "Biển nào cảnh báo vách núi nguy hiểm?",
+    "old_answer": 3,
+    "new_answer": 2
+  },
+  {
+    "id": 193,
+    "question": "Biển nào báo trước gần đến đoạn đường thường có trẻ em đi ng",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 195,
+    "question": "Biển nào cảnh báo lề đường nguy hiểm khi xe đi vào dễ gây vă",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 196,
+    "question": "Biển nào báo nơi có kết cấu mặt đường rời rạc, khi phương ti",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 198,
+    "question": "Biển nào báo trước đoạn đường có gồ giảm tốc?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 200,
+    "question": "Biển nào báo trước đến bến phà?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 204,
+    "question": "Khi gặp biển nào người lái xe phải cho xe dừng lại trong mọi",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 207,
+    "question": "Biển nào đặt sau nơi đường giao nhau và có hiệu lực trước mặ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 208,
+    "question": "Biển nào không cho phép rẽ phải?",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 211,
+    "question": "Biển nào báo tên đường cho các tuyến đường đối ngoại?",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 216,
+    "question": "Biển nào chỉ đường dành cho người đi bộ, các loại xe không đ",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 217,
+    "question": "Biển nào báo hiệu cầu vượt liên thông?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 218,
+    "question": "Biển nào báo hiệu nơi đỗ xe dành cho người khuyết tật?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 219,
+    "question": "Biển nào báo hiệu đường một chiều?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 220,
+    "question": "Biển nào chỉ dẫn được ưu tiên qua đường hẹp?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 221,
+    "question": "Biển nào báo hiệu “Hết đoạn đường ưu tiên”?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 222,
+    "question": "Biển nào báo hiệu đường phía trước có làn đường dành cho ô t",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 223,
+    "question": "Biển nào báo hiệu rẽ ra đường có làn đường dành cho ô tô khá",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 224,
+    "question": "Biển nào báo hiệu hết đường cao tốc?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 225,
+    "question": "Biển nào chỉ dẫn nơi bắt đầu đoạn đường dành cho người đi bộ",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 227,
+    "question": "Những biển nào đặt ở nơi đường bộ giao nhau có từ hai địa da",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 230,
+    "question": "Biển nào chỉ dẫn làn đường cứu nạn hay làn thoát xe khẩn cấp",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 234,
+    "question": "Biển nào chỉ dẫn khoảng cách đến nút giao với đường dẫn vào ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 236,
+    "question": "Biển này có ý nghĩa gì?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 237,
+    "question": "Biển nào chỉ dẫn người lái xe đi được cả hai hướng?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 240,
+    "question": "Biển nào chỉ dẫn khoảng cách đến các lối ra tiếp theo?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 273,
+    "question": "Muốn vượt xe trên đường hai chiều, mỗi bên chỉ có một làn đư",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 279,
+    "question": "Xe ô tô tham gia giao thông phải bảo đảm các điều kiện nào?",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 295,
+    "question": "Khi điều khiển xe ô tô loại chuyển số tự động dừng đèn đỏ, n",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 296,
+    "question": "Khi xuống dốc, muốn dừng xe, người lái xe cần thực hiện thao",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 299,
+    "question": "Khi điều khiển xe vượt qua rãnh cắt ngang mặt đường, người l",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 300,
+    "question": "Khi vượt xe khác cùng chiều, người lái xe cần lưu ý những vấ",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 301,
+    "question": "Khi điều khiển xe ô tô qua đường sắt không có rào chắn, khôn",
+    "old_answer": 3,
+    "new_answer": 2
+  },
+  {
+    "id": 303,
+    "question": "Khi tầm nhìn hạn chế bởi sương mù, người lái xe điều khiển x",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 304,
+    "question": "Khi điều khiển xe ô tô gặp mưa to, người lái xe phải làm gì?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 306,
+    "question": "Khi điều khiển xe trên đường cao tốc, người lái xe phải chú ",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 308,
+    "question": "Khi lái xe ô tô đi trên đường ngập nước, người lái xe xử lý ",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 310,
+    "question": "Khi điều khiển xe ô tô loại chuyển số tự động, người lái xe ",
+    "old_answer": 3,
+    "new_answer": 1
+  },
+  {
+    "id": 311,
+    "question": "Khi đỗ xe ô tô loại chuyển số tự động, người lái xe phải thự",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 312,
+    "question": "Khi lái xe ô tô trên mặt đường lồi lõm, người lái xe phải th",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 314,
+    "question": "Khi lái xe ô tô vào ban đêm, người lái xe phải xử lý như thế",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 315,
+    "question": "Muốn vượt xe khác trong khu đô thị, người lái xe phải xử lý ",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 316,
+    "question": "Khi điều khiển xe ô tô lên, xuống phà, người lái xe phải xử ",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 318,
+    "question": "Khi điều khiển xe ô tô loại chuyển số tự động đi vào đoạn đư",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 321,
+    "question": "Khi điều khiển xe ô tô tránh nhau ở đường nhỏ hoặc vào cua m",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 324,
+    "question": "Khi muốn quay đầu xe tại nơi đường đôi, người lái xe cần xử ",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 325,
+    "question": "Khi xe gặp sự cố kỹ thuật trên đường cao tốc, người lái xe p",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 326,
+    "question": "Khi đi từ đường nhánh ra đường chính, người lái xe phải xử l",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 328,
+    "question": "Khi đang lái xe ô tô, nếu có nhu cầu sử dụng điện thoại, ngư",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 330,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 331,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 332,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 333,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 334,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 1,
+    "new_answer": 3
+  },
+  {
+    "id": 335,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 3,
+    "new_answer": 2
+  },
+  {
+    "id": 336,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 3,
+    "new_answer": 1
+  },
+  {
+    "id": 339,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 341,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 3,
+    "new_answer": 2
+  },
+  {
+    "id": 342,
+    "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 344,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 345,
+    "question": "Xe nào phải nhường đường trong trường hợp này?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 346,
+    "question": "Trong trường hợp này xe nào được quyền đi trước?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 348,
+    "question": "Xe nào phải nhường đường trong trường hợp này?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 352,
+    "question": "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 353,
+    "question": "Theo tín hiệu đèn, xe ô tô tải đi theo hướng nào là đúng quy",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 357,
+    "question": "Theo hướng mũi tên, hướng nào xe không được phép đi?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 358,
+    "question": "Theo hướng mũi tên, những hướng nào xeô tô không được phép đ",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 359,
+    "question": "Xe nào được quyền đi trước trong trường hợp này?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 360,
+    "question": "Theo hướng mũi tên, những hướng nào xe ô tô con được phép đi",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 361,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 3
+  },
+  {
+    "id": 362,
+    "question": "Theo hướng mũi tên, những hướng nào xe ô tô tải được phép đi",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 363,
+    "question": "Những hướng nào xe ô tô tải được phép đi?",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 364,
+    "question": "Những hướng nào xe ô tô tải được phép đi?",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 365,
+    "question": "Xe ô tô con đi theo chiều mũi tên có vi phạm quy tắc giao th",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 366,
+    "question": "Theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 367,
+    "question": "Theo hiệu lệnh của người điều khiển giao thông, các xe đi nh",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 368,
+    "question": "Theo hiệu lệnh của người điều khiển giao thông, xe nào được ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 369,
+    "question": "Xe ô tô con vượt xe ô tô tải như trường hợp này có đúng khôn",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 371,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 372,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 373,
+    "question": "Những hướng nào xe ô tô tải được phép đi?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 376,
+    "question": "Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 377,
+    "question": "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 378,
+    "question": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 380,
+    "question": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao th",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 381,
+    "question": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao th",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 382,
+    "question": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao th",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 384,
+    "question": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 385,
+    "question": "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 386,
+    "question": "Xe ô tô con quay đầu xe đi ngược lại như hình vẽ dưới có vi ",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 387,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 388,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 389,
+    "question": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 392,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 393,
+    "question": "Xe nào được quyền đi trước trong trường hợp này?",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 396,
+    "question": "Trong trường hợp này, thứ tự các xe đi như thế nào là đúng q",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 398,
+    "question": "Xe nào phải nhường là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 399,
+    "question": "Xe nào đi trước là đúng quy tắc giao thông?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 401,
+    "question": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 402,
+    "question": "Khi muốn vượt xe ô tô tải, anh (chị) phải làm gì là đúng quy",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 403,
+    "question": "Trong hình dưới đây, những xe nào vi phạm quy tắc giao thông",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 404,
+    "question": "Anh (chị) có được vượt xe phía trước trong ngã tư để đi thẳn",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 405,
+    "question": "Xe của anh (chị) có được phép vượt xe mô tô phía trước không",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 406,
+    "question": "Anh (chị) dừng xe tại vị trí nào là đúng quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 407,
+    "question": "Xe của anh (chị) được đỗ ở vị trí nào trong tình huống này?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 408,
+    "question": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 409,
+    "question": "Anh (chị) phải điều khiển xe rẽ trái như thế nào là đúng quy",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 410,
+    "question": "Khi xe phía trước đang lùi ra khỏi nơi đỗ, anh (chị) xử lý n",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 411,
+    "question": "Xe nào vượt đúng quy tắc giao thông?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 412,
+    "question": "Khi điều khiển xe trên đường, gặp chướng ngại vật (xe hỏng p",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 413,
+    "question": "Trong trường hợp này, anh (chị) xử lý như thế nào là đúng qu",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 414,
+    "question": "Xe kéo nhau trong trường hợp này đúng quy định không?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 418,
+    "question": "Xe của anh (chị) được đi theo những hướng nào trong trường h",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 420,
+    "question": "Xe nào vượt đúng quy tắc giao thông?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 422,
+    "question": "Xe nào đỗ vi phạm quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 423,
+    "question": "Xe nào đỗ vi phạm quy tắc giao thông?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 426,
+    "question": "Trong tình huống dưới đây, xe ô tô màu vàng vượt xe ô tô màu",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 427,
+    "question": "Trong tình huống này, xe ô tô con muốn quay đầu thì phải xử ",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 428,
+    "question": "Anh (chị) xử lý như thế nào trong trường hợp này?",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 429,
+    "question": "Xe container đang rẽ phải, các phương tiện phía sau đi như t",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 430,
+    "question": "Xe nào vi phạm quy tắc giao thông?",
+    "old_answer": 2,
+    "new_answer": 0
+  },
+  {
+    "id": 431,
+    "question": "Các xe đi như thế nào là đúng quy tắc giao thông đường bộ?",
+    "old_answer": 1,
+    "new_answer": 3
+  },
+  {
+    "id": 433,
+    "question": "Anh (chị) điều khiển xe như thế nào là đúng quy tắc giao thô",
+    "old_answer": 3,
+    "new_answer": 1
+  },
+  {
+    "id": 434,
+    "question": "Tình huống này, để điều khiển cho xe đi thẳng anh (chị) phải",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 435,
+    "question": "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc gia",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 439,
+    "question": "Trong trường hợp này, xe nào phải dừng lại là đúng quy tắc g",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 440,
+    "question": "Xe của anh (chị) được đi theo hướng nào trong trường hợp này",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 441,
+    "question": "Anh (chị) xử lý như thế nào trong trường hợp này?",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 442,
+    "question": "Xe nào phải nhường đường trong trường hợp này?",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 444,
+    "question": "Trong tình huống này, xe ô tô màu đỏ hay xe ô tô màu trắng p",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 445,
+    "question": "Trong tình huống này, xe ô tô con màu đỏ có được phép vượt k",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 447,
+    "question": "Trong trường hợp này, xe ô tô con rẽ phải vào làn đường nào ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 448,
+    "question": "Trong tình huống này, xe ô tô con có đi đúng quy tắc giao th",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 449,
+    "question": "Trong trường hợp này, xe ô tô con có được vượt xe ô tô khách",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 451,
+    "question": "Xe của anh (chị) có được phép vượt xe ô tô tải trong trường ",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 453,
+    "question": "Trong trường hợp này, xe ô tô có được phép vượt xe mô tô khô",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 454,
+    "question": "Văn hóa giao thông được hiểu như thế nào là đúng?",
+    "old_answer": 1,
+    "new_answer": 3
+  },
+  {
+    "id": 455,
+    "question": "Văn hóa giao thông của người lái xe Công an nhân dân gồm nhữ",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 457,
+    "question": "Người lái xe phục vụ lãnh đạo trong Công an nhân dân phải đả",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 458,
+    "question": "Trách nhiệm của người lái xe khi thực hiện nhiệm vụ dẫn đoàn",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 459,
+    "question": "Yêu cầu đối với người lái xe khi thực hiện nhiệm vụ cảnh vệ,",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 460,
+    "question": "Theo thống kê, phân tích của các cơ quan chức năng, nguyên",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 461,
+    "question": "Mục đích tuyên truyền, phổ biến, giáo dục pháp luật về TTATG",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 462,
+    "question": "“Tiêu chí văn hoá giao thông đường bộ” do Bộ Văn hoá, Thể",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 463,
+    "question": "“Tiêu chí Văn hóa giao thông đường bộ\" do Bộ Văn hóa, Thể th",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 466,
+    "question": "Người có Giấy phép lái xe do ngành Công an cấp khi không phụ",
+    "old_answer": 3,
+    "new_answer": 1
+  },
+  {
+    "id": 467,
+    "question": "Người tham gia giao thông phải đảm bảo những tiêu chí văn hó",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 468,
+    "question": "Để xây dựng văn hóa giao thông, người tham gia giao thông cầ",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 469,
+    "question": "Khi lái xe ô tô trên đường, gặp người đi xe đạp bị ngã gần t",
+    "old_answer": 3,
+    "new_answer": 1
+  },
+  {
+    "id": 470,
+    "question": "Khi đang lái xe, anh (chị) nhìn thấy xe đi phía trước chở vậ",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 472,
+    "question": "Kết thúc buổi liên hoan mà tất cả mọi người đều đã uống bia,",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 473,
+    "question": "Khi lái xe ô tô ở đoạn đường có công trường thi công, phía t",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 474,
+    "question": "Khi lái xe tham gia giao thông, bị một xe mô tô bất ngờ tạt ",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 475,
+    "question": "Khi lái xe tham gia giao thông vào ban đêm, gặp xe đi ngược ",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 476,
+    "question": "Khi lái xe, gặp tình huống người dẫn gia súc vượt qua đường,",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 477,
+    "question": "Lái xe trên đường có vũng nước đọng, đang có người đi xe đạp",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 479,
+    "question": "Khi thấy người vi phạm pháp luật về TTATGTĐB có hành vi lăng",
+    "old_answer": 1,
+    "new_answer": 2
+  },
+  {
+    "id": 480,
+    "question": "Khi người tham gia giao thông không chấp hành tín hiệu đèn",
+    "old_answer": 2,
+    "new_answer": 3
+  },
+  {
+    "id": 481,
+    "question": "Khi người thân của anh (chị) phơi thóc, rơm rạ, nông sản trê",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 482,
+    "question": "Khi tham gia giao thông phát hiện trên đường phố bị đổ nhiều",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 483,
+    "question": "Anh (chị) nên làm như thế nào khi người thân mua xe ô tô",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 484,
+    "question": "Điều khiển phương tiện trên đường cao tốc, gặp đoạn ùn tắc, ",
+    "old_answer": 0,
+    "new_answer": 2
+  },
+  {
+    "id": 485,
+    "question": "Điều khiển phương tiện ô tô trên đường hai chiều, ở chiều đư",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 486,
+    "question": "Anh (chị) cho biết ý kiến của mình về hành vi đè lên vạch kê",
+    "old_answer": 2,
+    "new_answer": 1
+  },
+  {
+    "id": 488,
+    "question": "Sau mưa lớn, một đoạn đường bị sụt, lún gây cản trở, mất an",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 489,
+    "question": "Trong các loại bình chữa cháy dưới đây, loại bình nào phù hợ",
+    "old_answer": 1,
+    "new_answer": 0
+  },
+  {
+    "id": 490,
+    "question": "Theo Anh (chị) có nên sử dụng bình khí C02 đối với các đám",
+    "old_answer": 0,
+    "new_answer": 1
+  },
+  {
+    "id": 491,
+    "question": "Anh (chị) hãy cho biết các nguyên nhân sinh ra nhiệt từ phươ",
+    "old_answer": 0,
+    "new_answer": 3
+  },
+  {
+    "id": 492,
+    "question": "Theo Anh (chị) để hệ thống điện trên phương tiện giao thông ",
+    "old_answer": 1,
+    "new_answer": 3
+  },
+  {
+    "id": 495,
+    "question": "Khi phát hiện thấy có ngọn lửa, khói hoặc nhiệt độ cao bất",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 496,
+    "question": "Sau khi đã dập tắt ngọn lửa của phương tiện giao thông cơ gi",
+    "old_answer": 3,
+    "new_answer": 0
+  },
+  {
+    "id": 498,
+    "question": "Khi gặp nạn nhân bị bỏng trong vụ tai nạn giao thông, anh (c",
+    "old_answer": 0,
+    "new_answer": 3
+  }
+]
