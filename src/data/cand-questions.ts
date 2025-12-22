@@ -782,7 +782,7 @@ export const candQuestions: Question[] = [
   },
   {
     id: 117,
-    question: "Trong khu vực đông dân cư, tốc độ tối đa cho phép đối với xe ô tô tham gia giao thông trên đường đôi; đường một chiều có từ hai làn xe cơ giới là bao nhiêu?",
+    question: "Trong khu vực đông dân cư, tốc độ tối đa cho phép đối với xe ô tô tham gia giao thông trên đường hai chiều; đường một chiều có một làn xe cơ giới là bao nhiêu?",
     answers: ["30 km/h. ", "50 km/h.", "40 km/h. ", "60 km/h."],
     correctAnswer: 1,
   },
@@ -2459,6 +2459,7 @@ export const candQuestions: Question[] = [
     question: "Theo hiệu lệnh của người điều khiển giao thông, xe nào được phép đi?",
     answers: ["Xe mô tô, xe ô tô con. ", " Xe mô tô, xe ô tô tải.", "Xe ô tô con, xe ô tô tải. ", " Cả ba xe."],
     correctAnswer: 1,
+    image: "/images/question_370.png",
   },
   {
     id: 371,
