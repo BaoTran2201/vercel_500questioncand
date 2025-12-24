@@ -746,7 +746,7 @@ export const candQuestions: Question[] = [
   },
   {
     id: 111,
-    question: "Người vi phạm trật tự, an toàn giao thông đường bộ chưa thực cấp, đổi, cấp lại giấy phép lái xe không?",
+    question: "Người vi phạm trật tự, an toàn giao thông đường bộ chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết vụ việc vi phạm hành chính trong lĩnh vực trật tự, an toàn giao thông đường bộ có được cấp, đổi, cấp lại giấy phép lái xe không?",
     answers: ["Chưa được cấp, đổi, cấp lại giấy phép lái xe. ", "Có được cấp, đổi, cấp lại giấy phép lái xe. ", "Tùy từng trường hợp."],
     correctAnswer: 0,
   },
